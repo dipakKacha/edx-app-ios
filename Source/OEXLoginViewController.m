@@ -34,8 +34,6 @@
 #import "Reachability.h"
 #import "OEXStyles.h"
 
-#define USER_EMAIL @"USERNAME"
-
 @interface OEXLoginViewController () <AgreementTextViewDelegate, InterfaceOrientationOverriding>
 {
     CGPoint originalOffset;     // store the offset of the scrollview.

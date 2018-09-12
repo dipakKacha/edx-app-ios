@@ -8,6 +8,8 @@
 
 @import UIKit;
 
+#define USER_EMAIL @"USERNAME"
+
 NS_ASSUME_NONNULL_BEGIN
 
 @class OEXLoginViewController;

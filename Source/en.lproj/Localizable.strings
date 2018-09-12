@@ -486,6 +486,8 @@
 "MOST_ACTIVITY"="Most Activity";
 /* Option to sort discussion post list by most votes */
 "MOST_VOTES"="Most Votes";
+/* Screen title showing a category */
+"CATEGORY" = "Category";
 /* Screen title showing a user's courses */
 "COURSES"="Courses";
 /* Screen title showing a user's settings */

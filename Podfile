@@ -6,6 +6,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 project 'edX.xcodeproj'
 
 target 'edX' do
+
 pod 'Analytics', '~> 3.0.0'
 pod 'Segment-GoogleAnalytics', '~> 1.0.0'
 pod 'Crashlytics', '~> 3.10.1'
@@ -19,6 +20,10 @@ pod 'FBSDKLoginKit', '~> 4.31.1'
 pod 'Smartling.i18n', '~> 1.0'
 pod 'Firebase/Core', '= 3.11.0'
 pod 'Branch', '= 0.23.5'
+
+# StudyByTech
+#pod 'ObjectMapper', '~> 3.3'
+#pod 'FSPagerView', '~> 0.4.1'
 end
 
 target 'edXTests' do

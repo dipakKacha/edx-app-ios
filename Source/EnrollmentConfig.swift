@@ -51,7 +51,7 @@ class EnrollmentConfig : NSObject {
     }
     
     @discardableResult func isCourseDiscoveryEnabled()-> Bool {
-        return self.type != .None
+        return self.type != .Native
     }
     
     // Associated swift enums can not be used in objective-c, that's why this extra function needed

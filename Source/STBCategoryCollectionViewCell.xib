@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="STBCategoryCollectionViewCell" id="6gW-i7-bEw" customClass="STBCategoryCollectionViewCell" customModule="edX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="155" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="155" height="76"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="57h-g3-O1B">
+                        <rect key="frame" x="8" y="8" width="139" height="61"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="57h-g3-O1B" firstAttribute="centerX" secondItem="6gW-i7-bEw" secondAttribute="centerX" id="3sW-Jb-GcU"/>
+                <constraint firstItem="57h-g3-O1B" firstAttribute="centerY" secondItem="6gW-i7-bEw" secondAttribute="centerY" id="F9g-Yf-VhW"/>
+                <constraint firstItem="57h-g3-O1B" firstAttribute="top" secondItem="6gW-i7-bEw" secondAttribute="top" constant="8" id="QnG-85-Wmz"/>
+                <constraint firstItem="57h-g3-O1B" firstAttribute="leading" secondItem="6gW-i7-bEw" secondAttribute="leading" constant="8" id="si6-AS-ffs"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3X3-WY-aP3"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="myCornerRadius">
+                    <real key="value" value="4"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="myBorderColor">
+                    <color key="value" red="0.92549019610000005" green="0.92156862750000001" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="myBorderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="lblCategoryTitle" destination="57h-g3-O1B" id="lMC-HD-2U0"/>
+            </connections>
+            <point key="canvasLocation" x="-156" y="-13"/>
+        </collectionViewCell>
+    </objects>
+</document>

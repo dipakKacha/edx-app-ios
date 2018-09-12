@@ -231,8 +231,6 @@
 		69ECC63F1D50D1170030CF87 /* icon_google_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5E71D50D1170030CF87 /* icon_google_white@2x.png */; };
 		69ECC6401D50D1170030CF87 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5E81D50D1170030CF87 /* iTunesArtwork */; };
 		69ECC6411D50D1170030CF87 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5E91D50D1170030CF87 /* iTunesArtwork@2x */; };
-		69ECC6421D50D1170030CF87 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5EA1D50D1170030CF87 /* logo@2x.png */; };
-		69ECC6431D50D1170030CF87 /* logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5EB1D50D1170030CF87 /* logo@3x.png */; };
 		69ECC6441D50D1170030CF87 /* loginScreenImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5EC1D50D1170030CF87 /* loginScreenImage@2x.png */; };
 		69ECC6451D50D1170030CF87 /* separator.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5ED1D50D1170030CF87 /* separator.png */; };
 		69ECC6461D50D1170030CF87 /* separator1.png in Resources */ = {isa = PBXBuildFile; fileRef = 69ECC5EE1D50D1170030CF87 /* separator1.png */; };
@@ -540,7 +538,6 @@
 		77FFA2BE1AC3031900B4D69B /* OEXUsingExternalAuthHeadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFA2BD1AC3031900B4D69B /* OEXUsingExternalAuthHeadingView.m */; };
 		77FFA2C31AC30C1500B4D69B /* NSAttributedString+OEXFormattingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFA2C21AC30C1500B4D69B /* NSAttributedString+OEXFormattingTests.m */; };
 		77FFA2CC1AC35CE800B4D69B /* OEXRegistrationStyles.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FFA2CB1AC35CE800B4D69B /* OEXRegistrationStyles.m */; };
-		7838FA70AF5D18DFDFA51252 /* libPods-edXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3EB70CB728DFC1B9BC8CB8 /* libPods-edXTests.a */; };
 		7C2DD54F1D4A7901006148E0 /* UserPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DD54E1D4A7901006148E0 /* UserPreference.swift */; };
 		7C2DD5511D4A790F006148E0 /* UserPreferenceAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DD5501D4A790F006148E0 /* UserPreferenceAPI.swift */; };
 		7C2DD5531D4A8669006148E0 /* UserPreferenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2DD5521D4A8669006148E0 /* UserPreferenceManager.swift */; };
@@ -548,7 +545,6 @@
 		80056C9A1B0CDE1A0004D85C /* DiscussionResponsesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80056C991B0CDE1A0004D85C /* DiscussionResponsesViewController.swift */; };
 		805329101B0E80E50093B177 /* DiscussionResponses.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8053290F1B0E80E50093B177 /* DiscussionResponses.storyboard */; };
 		805329121B0EA2DC0093B177 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805329111B0EA2DC0093B177 /* QuartzCore.framework */; };
-		8B900B2EB01D16A88A33BBF5 /* libPods-edX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7C088336C8983E1C003D89D /* libPods-edX.a */; };
 		8F562F881A1F2D2C00320DB3 /* OEXGoogleSocial.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F562F871A1F2D2C00320DB3 /* OEXGoogleSocial.m */; };
 		8F562F8C1A1F44FC00320DB3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F562F8B1A1F44FC00320DB3 /* AddressBook.framework */; };
 		8F562F8E1A1F450A00320DB3 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F562F8D1A1F450A00320DB3 /* AssetsLibrary.framework */; };
@@ -565,6 +561,7 @@
 		9E1081081B8B7EEC00888746 /* PaginatedFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1081071B8B7EEC00888746 /* PaginatedFeed.swift */; };
 		9E1D952E1B678E4700ABE764 /* AccessibilityCLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D952D1B678E4700ABE764 /* AccessibilityCLButton.swift */; };
 		9E1D95321B68CEA000ABE764 /* UIButton+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1D95311B68CEA000ABE764 /* UIButton+Accessibility.swift */; };
+		9E340CDABA8747F9CDE67467 /* libPods-edX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CF2C5972B3D52CBEE4D5E26 /* libPods-edX.a */; };
 		9E4E6C3F1B4BBB5C0034F7EB /* LastAccessedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E6C3E1B4BBB5C0034F7EB /* LastAccessedProvider.swift */; };
 		9E4E6C411B4BDB5C0034F7EB /* MockLastAccessedProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4E6C401B4BDB5C0034F7EB /* MockLastAccessedProvider.swift */; };
 		9E5EDA691AFB603A002ADC64 /* CourseAnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E5EDA681AFB603A002ADC64 /* CourseAnnouncementsViewController.swift */; };
@@ -774,6 +771,49 @@
 		BECB7B301924C0C3009C77F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B121924C0C3009C77F1 /* UIKit.framework */; };
 		BECB7B691924EE11009C77F1 /* OEXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */; };
 		BEEEBF80196AAACF00EF2C35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEEBF82196AAACF00EF2C35 /* Localizable.strings */; };
+		C13899BB2149268200EB969D /* CategoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BA2149268200EB969D /* CategoryAPI.swift */; };
+		C13899C0214929A500EB969D /* AllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BC214929A200EB969D /* AllCategories.swift */; };
+		C13899C1214929A500EB969D /* CatChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BD214929A300EB969D /* CatChildren.swift */; };
+		C13899C2214929A500EB969D /* CatResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BE214929A400EB969D /* CatResult.swift */; };
+		C13899C3214929A500EB969D /* CatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BF214929A500EB969D /* CatData.swift */; };
+		C1473EAA2148D84A00723F0D /* STBCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1473EA92148D84A00723F0D /* STBCategoryCollectionViewCell.swift */; };
+		C1473EAC2148E0C800723F0D /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1473EAB2148E0C700723F0D /* UIExtension.swift */; };
+		C1AFE9C52147F902008A99A8 /* STBCategoryHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */; };
+		C1AFE9CA21480649008A99A8 /* STBCategoryHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFE9C921480649008A99A8 /* STBCategoryHomeViewController.swift */; };
+		C1CC73022148FF7B00EB7A45 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FB2148FF7B00EB7A45 /* FSPageControl.swift */; };
+		C1CC73032148FF7B00EB7A45 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FC2148FF7B00EB7A45 /* FSPagerCollectionView.swift */; };
+		C1CC73042148FF7B00EB7A45 /* FSPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FD2148FF7B00EB7A45 /* FSPagerView.swift */; };
+		C1CC73052148FF7B00EB7A45 /* FSPagerViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FE2148FF7B00EB7A45 /* FSPagerViewCell.swift */; };
+		C1CC73062148FF7B00EB7A45 /* FSPagerViewLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FF2148FF7B00EB7A45 /* FSPagerViewLayoutAttributes.swift */; };
+		C1CC73072148FF7B00EB7A45 /* FSPageViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC73002148FF7B00EB7A45 /* FSPageViewLayout.swift */; };
+		C1CC73082148FF7B00EB7A45 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */; };
+		C1CC730A21491C6300EB7A45 /* STBCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */; };
+		C1CC730C21491E0600EB7A45 /* STBSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC730B21491E0600EB7A45 /* STBSubCategoryViewController.swift */; };
+		C1EA9D212149490F00A42FC8 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D082149490F00A42FC8 /* CustomDateFormatTransform.swift */; };
+		C1EA9D222149490F00A42FC8 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D092149490F00A42FC8 /* DataTransform.swift */; };
+		C1EA9D232149490F00A42FC8 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0A2149490F00A42FC8 /* DateFormatterTransform.swift */; };
+		C1EA9D242149490F00A42FC8 /* DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0B2149490F00A42FC8 /* DateTransform.swift */; };
+		C1EA9D252149490F00A42FC8 /* DictionaryTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0C2149490F00A42FC8 /* DictionaryTransform.swift */; };
+		C1EA9D262149490F00A42FC8 /* EnumOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0D2149490F00A42FC8 /* EnumOperators.swift */; };
+		C1EA9D272149490F00A42FC8 /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0E2149490F00A42FC8 /* EnumTransform.swift */; };
+		C1EA9D282149490F00A42FC8 /* FromJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0F2149490F00A42FC8 /* FromJSON.swift */; };
+		C1EA9D292149490F00A42FC8 /* HexColorTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D102149490F00A42FC8 /* HexColorTransform.swift */; };
+		C1EA9D2A2149490F00A42FC8 /* ImmutableMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D112149490F00A42FC8 /* ImmutableMappable.swift */; };
+		C1EA9D2B2149490F00A42FC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1EA9D122149490F00A42FC8 /* Info.plist */; };
+		C1EA9D2C2149490F00A42FC8 /* IntegerOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D132149490F00A42FC8 /* IntegerOperators.swift */; };
+		C1EA9D2D2149490F00A42FC8 /* ISO8601DateTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D142149490F00A42FC8 /* ISO8601DateTransform.swift */; };
+		C1EA9D2E2149490F00A42FC8 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D152149490F00A42FC8 /* Map.swift */; };
+		C1EA9D2F2149490F00A42FC8 /* MapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D162149490F00A42FC8 /* MapError.swift */; };
+		C1EA9D302149490F00A42FC8 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D172149490F00A42FC8 /* Mappable.swift */; };
+		C1EA9D312149490F00A42FC8 /* Mapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D182149490F00A42FC8 /* Mapper.swift */; };
+		C1EA9D322149490F00A42FC8 /* NSDecimalNumberTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D192149490F00A42FC8 /* NSDecimalNumberTransform.swift */; };
+		C1EA9D332149490F00A42FC8 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D1B2149490F00A42FC8 /* Operators.swift */; };
+		C1EA9D342149490F00A42FC8 /* ToJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D1C2149490F00A42FC8 /* ToJSON.swift */; };
+		C1EA9D352149490F00A42FC8 /* TransformOf.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D1D2149490F00A42FC8 /* TransformOf.swift */; };
+		C1EA9D362149490F00A42FC8 /* TransformOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D1E2149490F00A42FC8 /* TransformOperators.swift */; };
+		C1EA9D372149490F00A42FC8 /* TransformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D1F2149490F00A42FC8 /* TransformType.swift */; };
+		C1EA9D382149490F00A42FC8 /* URLTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D202149490F00A42FC8 /* URLTransform.swift */; };
+		CBECFEF5D3E2B2E309D5934D /* libPods-edXTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8268D4966F0354A8B375E12 /* libPods-edXTests.a */; };
 		E00523431CF81D9800B7F5C3 /* DiscussionBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00523421CF81D9800B7F5C3 /* DiscussionBlockViewController.swift */; };
 		E00523451CFD768700B7F5C3 /* DiscussionBlockViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00523441CFD768700B7F5C3 /* DiscussionBlockViewControllerTests.swift */; };
 		E008D9061CCE150F007F3643 /* DiscussionResponsesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008D9041CCE1506007F3643 /* DiscussionResponsesViewControllerTests.swift */; };
@@ -782,7 +822,6 @@
 		E01F45671E03D04100B9D7DC /* FirebaseAnalyticsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01F45661E03D04100B9D7DC /* FirebaseAnalyticsTracker.swift */; };
 		E02165AF1E39D3040058D685 /* UIImage_OEXHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02165AE1E39D3040058D685 /* UIImage_OEXHelpersTests.swift */; };
 		E021F46C1F739599007A26E7 /* loginScreenImage@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E021F46A1F739599007A26E7 /* loginScreenImage@2x~ipad.png */; };
-		E021F46D1F739599007A26E7 /* logo@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E021F46B1F739599007A26E7 /* logo@2x~ipad.png */; };
 		E021F46F1F739806007A26E7 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E021F46E1F739806007A26E7 /* Default-Portrait@2x~ipad.png */; };
 		E024B0001EC4589800498ECA /* WhatsNewViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024AFFF1EC4589800498ECA /* WhatsNewViewControllerTests.swift */; };
 		E02E59EF1F0E231000060AE0 /* VersionParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02E59EE1F0E231000060AE0 /* VersionParser.swift */; };
@@ -793,7 +832,6 @@
 		E03402211C7F1FC9003EB9B7 /* DiscussionResponsesDataControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E034021F1C7F1F92003EB9B7 /* DiscussionResponsesDataControllerTests.swift */; };
 		E03402241C7F2308003EB9B7 /* DiscussionTestsDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03402221C7F2173003EB9B7 /* DiscussionTestsDataFactory.swift */; };
 		E039A8031F74C0D80064ABDB /* loginScreenImage~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E039A8011F74C0D80064ABDB /* loginScreenImage~ipad.png */; };
-		E039A8041F74C0D80064ABDB /* logo~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = E039A8021F74C0D80064ABDB /* logo~ipad.png */; };
 		E03E6A151D38C91F00944AAA /* OfflineSupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E6A141D38C91F00944AAA /* OfflineSupportViewController.swift */; };
 		E03E6A171D38EB9000944AAA /* SnackbarViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E6A161D38EB9000944AAA /* SnackbarViews.swift */; };
 		E03E6A191D38EC7500944AAA /* UIView+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03E6A181D38EC7500944AAA /* UIView+UIViewController.swift */; };
@@ -1055,7 +1093,6 @@
 		46CECC3B1B041D270073C63A /* AdditionalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdditionalTableViewCell.swift; sourceTree = "<group>"; };
 		46CECC3D1B041FAF0073C63A /* DiscussionTopicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTopicCell.swift; sourceTree = "<group>"; };
 		46CECC3F1B041FCA0073C63A /* DiscussionTopicsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTopicsViewController.swift; sourceTree = "<group>"; };
-		4C3EB70CB728DFC1B9BC8CB8 /* libPods-edXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-edXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D43B1801B0C1F9200448B52 /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		5D43B1811B0C1F9200448B52 /* PostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewController.swift; sourceTree = "<group>"; };
 		5D43B1841B0C1F9200448B52 /* MenuOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuOptionsViewController.swift; sourceTree = "<group>"; };
@@ -1149,8 +1186,6 @@
 		69ECC5E71D50D1170030CF87 /* icon_google_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_google_white@2x.png"; sourceTree = "<group>"; };
 		69ECC5E81D50D1170030CF87 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		69ECC5E91D50D1170030CF87 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
-		69ECC5EA1D50D1170030CF87 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
-		69ECC5EB1D50D1170030CF87 /* logo@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@3x.png"; sourceTree = "<group>"; };
 		69ECC5EC1D50D1170030CF87 /* loginScreenImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginScreenImage@2x.png"; sourceTree = "<group>"; };
 		69ECC5ED1D50D1170030CF87 /* separator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator.png; sourceTree = "<group>"; };
 		69ECC5EE1D50D1170030CF87 /* separator1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = separator1.png; sourceTree = "<group>"; };
@@ -1171,6 +1206,7 @@
 		69F5FACA1E28B0AD00F6ACC6 /* VideoTranscriptTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTranscriptTableViewCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		69F998561E6FEB2400CDFA9C /* OEXAnalytics+AppReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OEXAnalytics+AppReview.swift"; sourceTree = "<group>"; };
 		6C5AB6D484316B1D809C5BC7 /* Pods-edX.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edX.profile.xcconfig"; path = "Pods/Target Support Files/Pods-edX/Pods-edX.profile.xcconfig"; sourceTree = "<group>"; };
+		6CF2C5972B3D52CBEE4D5E26 /* libPods-edX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-edX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77000A351A76EF8C007D306C /* NSString+OEXValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OEXValidation.h"; sourceTree = "<group>"; };
 		77000A361A76EF8C007D306C /* NSString+OEXValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OEXValidation.m"; sourceTree = "<group>"; };
 		77000A381A76EFF2007D306C /* NSString+OEXValidationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OEXValidationTests.m"; sourceTree = "<group>"; };
@@ -1793,7 +1829,49 @@
 		BECB7B671924EE11009C77F1 /* OEXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXLoginViewController.h; sourceTree = "<group>"; };
 		BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXLoginViewController.m; sourceTree = "<group>"; };
 		C1061FFC436565270CDA40E3 /* Pods-edXTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXTests.profile.xcconfig"; path = "Pods/Target Support Files/Pods-edXTests/Pods-edXTests.profile.xcconfig"; sourceTree = "<group>"; };
-		C7C088336C8983E1C003D89D /* libPods-edX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-edX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13899BA2149268200EB969D /* CategoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAPI.swift; sourceTree = "<group>"; };
+		C13899BC214929A200EB969D /* AllCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCategories.swift; sourceTree = "<group>"; };
+		C13899BD214929A300EB969D /* CatChildren.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatChildren.swift; sourceTree = "<group>"; };
+		C13899BE214929A400EB969D /* CatResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatResult.swift; sourceTree = "<group>"; };
+		C13899BF214929A500EB969D /* CatData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatData.swift; sourceTree = "<group>"; };
+		C1473EA92148D84A00723F0D /* STBCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		C1473EAB2148E0C700723F0D /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STBCategoryHome.storyboard; sourceTree = "<group>"; };
+		C1AFE9C921480649008A99A8 /* STBCategoryHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBCategoryHomeViewController.swift; sourceTree = "<group>"; };
+		C1CC72FB2148FF7B00EB7A45 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
+		C1CC72FC2148FF7B00EB7A45 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
+		C1CC72FD2148FF7B00EB7A45 /* FSPagerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerView.swift; sourceTree = "<group>"; };
+		C1CC72FE2148FF7B00EB7A45 /* FSPagerViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewCell.swift; sourceTree = "<group>"; };
+		C1CC72FF2148FF7B00EB7A45 /* FSPagerViewLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerViewLayoutAttributes.swift; sourceTree = "<group>"; };
+		C1CC73002148FF7B00EB7A45 /* FSPageViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewLayout.swift; sourceTree = "<group>"; };
+		C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewTransformer.swift; sourceTree = "<group>"; };
+		C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STBCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		C1CC730B21491E0600EB7A45 /* STBSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBSubCategoryViewController.swift; sourceTree = "<group>"; };
+		C1EA9D082149490F00A42FC8 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
+		C1EA9D092149490F00A42FC8 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
+		C1EA9D0A2149490F00A42FC8 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
+		C1EA9D0B2149490F00A42FC8 /* DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTransform.swift; sourceTree = "<group>"; };
+		C1EA9D0C2149490F00A42FC8 /* DictionaryTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryTransform.swift; sourceTree = "<group>"; };
+		C1EA9D0D2149490F00A42FC8 /* EnumOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumOperators.swift; sourceTree = "<group>"; };
+		C1EA9D0E2149490F00A42FC8 /* EnumTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumTransform.swift; sourceTree = "<group>"; };
+		C1EA9D0F2149490F00A42FC8 /* FromJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FromJSON.swift; sourceTree = "<group>"; };
+		C1EA9D102149490F00A42FC8 /* HexColorTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColorTransform.swift; sourceTree = "<group>"; };
+		C1EA9D112149490F00A42FC8 /* ImmutableMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmutableMappable.swift; sourceTree = "<group>"; };
+		C1EA9D122149490F00A42FC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1EA9D132149490F00A42FC8 /* IntegerOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerOperators.swift; sourceTree = "<group>"; };
+		C1EA9D142149490F00A42FC8 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISO8601DateTransform.swift; sourceTree = "<group>"; };
+		C1EA9D152149490F00A42FC8 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		C1EA9D162149490F00A42FC8 /* MapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapError.swift; sourceTree = "<group>"; };
+		C1EA9D172149490F00A42FC8 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		C1EA9D182149490F00A42FC8 /* Mapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mapper.swift; sourceTree = "<group>"; };
+		C1EA9D192149490F00A42FC8 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		C1EA9D1A2149490F00A42FC8 /* ObjectMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectMapper.h; sourceTree = "<group>"; };
+		C1EA9D1B2149490F00A42FC8 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		C1EA9D1C2149490F00A42FC8 /* ToJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJSON.swift; sourceTree = "<group>"; };
+		C1EA9D1D2149490F00A42FC8 /* TransformOf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOf.swift; sourceTree = "<group>"; };
+		C1EA9D1E2149490F00A42FC8 /* TransformOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformOperators.swift; sourceTree = "<group>"; };
+		C1EA9D1F2149490F00A42FC8 /* TransformType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformType.swift; sourceTree = "<group>"; };
+		C1EA9D202149490F00A42FC8 /* URLTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTransform.swift; sourceTree = "<group>"; };
 		D403B266ACE25A256FD75605 /* Pods-edXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-edXTests/Pods-edXTests.release.xcconfig"; sourceTree = "<group>"; };
 		E00523421CF81D9800B7F5C3 /* DiscussionBlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionBlockViewController.swift; sourceTree = "<group>"; };
 		E00523441CFD768700B7F5C3 /* DiscussionBlockViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionBlockViewControllerTests.swift; sourceTree = "<group>"; };
@@ -1803,7 +1881,6 @@
 		E01F45661E03D04100B9D7DC /* FirebaseAnalyticsTracker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsTracker.swift; sourceTree = "<group>"; };
 		E02165AE1E39D3040058D685 /* UIImage_OEXHelpersTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage_OEXHelpersTests.swift; sourceTree = "<group>"; };
 		E021F46A1F739599007A26E7 /* loginScreenImage@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginScreenImage@2x~ipad.png"; sourceTree = "<group>"; };
-		E021F46B1F739599007A26E7 /* logo@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x~ipad.png"; sourceTree = "<group>"; };
 		E021F46E1F739806007A26E7 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
 		E024AFFF1EC4589800498ECA /* WhatsNewViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsNewViewControllerTests.swift; sourceTree = "<group>"; };
 		E02DE7CA1C85E15A0086943F /* DiscussionPosts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DiscussionPosts.json; sourceTree = "<group>"; };
@@ -1815,7 +1892,6 @@
 		E034021F1C7F1F92003EB9B7 /* DiscussionResponsesDataControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionResponsesDataControllerTests.swift; sourceTree = "<group>"; };
 		E03402221C7F2173003EB9B7 /* DiscussionTestsDataFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscussionTestsDataFactory.swift; sourceTree = "<group>"; };
 		E039A8011F74C0D80064ABDB /* loginScreenImage~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginScreenImage~ipad.png"; sourceTree = "<group>"; };
-		E039A8021F74C0D80064ABDB /* logo~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo~ipad.png"; sourceTree = "<group>"; };
 		E03E6A141D38C91F00944AAA /* OfflineSupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OfflineSupportViewController.swift; sourceTree = "<group>"; };
 		E03E6A161D38EB9000944AAA /* SnackbarViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackbarViews.swift; sourceTree = "<group>"; };
 		E03E6A181D38EC7500944AAA /* UIView+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+UIViewController.swift"; sourceTree = "<group>"; };
@@ -1873,6 +1949,8 @@
 		F22A0ABA1CE60D5E00D50DFF /* NetworkManager+Authenticators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+Authenticators.swift"; sourceTree = "<group>"; };
 		F22A0ABC1CE660B300D50DFF /* LoginApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginApi.swift; sourceTree = SOURCE_ROOT; };
 		F2808CF91CF374FA002EAD1D /* NetworkManager+AuthenticatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NetworkManager+AuthenticatorTests.swift"; sourceTree = "<group>"; };
+		F8268D4966F0354A8B375E12 /* libPods-edXTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-edXTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD23FA6E0FEAE45E78B6435F /* Pods_edXCoreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_edXCoreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFF07B872500B8140F91FB08 /* Pods-edX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edX.release.xcconfig"; path = "Pods/Target Support Files/Pods-edX/Pods-edX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1919,7 +1997,7 @@
 				BECB7B111924C0C3009C77F1 /* CoreGraphics.framework in Frameworks */,
 				BECB7B131924C0C3009C77F1 /* UIKit.framework in Frameworks */,
 				BECB7B0F1924C0C3009C77F1 /* Foundation.framework in Frameworks */,
-				8B900B2EB01D16A88A33BBF5 /* libPods-edX.a in Frameworks */,
+				9E340CDABA8747F9CDE67467 /* libPods-edX.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1929,7 +2007,7 @@
 			files = (
 				BECB7B301924C0C3009C77F1 /* UIKit.framework in Frameworks */,
 				BECB7B2F1924C0C3009C77F1 /* Foundation.framework in Frameworks */,
-				7838FA70AF5D18DFDFA51252 /* libPods-edXTests.a in Frameworks */,
+				CBECFEF5D3E2B2E309D5934D /* libPods-edXTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2264,6 +2342,7 @@
 		69ECC5A11D50D1170030CF87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C1473EAB2148E0C700723F0D /* UIExtension.swift */,
 				B71AA15020CEF64B00700C5E /* Subjects Icons */,
 				22B85A33203EEE1E0071AD43 /* Images.xcassets */,
 				77BFD8691BB9E15B001D7BE5 /* Strings.swift */,
@@ -2319,9 +2398,7 @@
 			isa = PBXGroup;
 			children = (
 				E039A8011F74C0D80064ABDB /* loginScreenImage~ipad.png */,
-				E039A8021F74C0D80064ABDB /* logo~ipad.png */,
 				E021F46A1F739599007A26E7 /* loginScreenImage@2x~ipad.png */,
-				E021F46B1F739599007A26E7 /* logo@2x~ipad.png */,
 				22A4191B1EB1CF1500BBC8CA /* shareCourse.png */,
 				22A4191C1EB1CF1500BBC8CA /* shareCourse@2x.png */,
 				6926CDA41D59BE3600A16E22 /* ic_next_press.png */,
@@ -2373,8 +2450,6 @@
 				69ECC5E71D50D1170030CF87 /* icon_google_white@2x.png */,
 				69ECC5E81D50D1170030CF87 /* iTunesArtwork */,
 				69ECC5E91D50D1170030CF87 /* iTunesArtwork@2x */,
-				69ECC5EA1D50D1170030CF87 /* logo@2x.png */,
-				69ECC5EB1D50D1170030CF87 /* logo@3x.png */,
 				69ECC5EC1D50D1170030CF87 /* loginScreenImage@2x.png */,
 				69ECC5ED1D50D1170030CF87 /* separator.png */,
 				69ECC5EE1D50D1170030CF87 /* separator1.png */,
@@ -2735,6 +2810,8 @@
 				B4B6D6471A95CF33000F44E8 /* OEXUserLicenseAgreementViewController.xib */,
 				9E7D1BCB1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard */,
 				9ED269D11AF114B900328A34 /* OEXLoginViewController.storyboard */,
+				C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */,
+				C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */,
 			);
 			name = XIB/Storyboard;
 			sourceTree = "<group>";
@@ -3480,6 +3557,8 @@
 		BE76FEAA193C8D9C00BB9BDD /* External Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				C1EA9D072149490F00A42FC8 /* ObjectMapper */,
+				C1CC72FA2148FF7B00EB7A45 /* FSPagerView */,
 				B7CCC6F9209B16B000A66923 /* SnapKit */,
 				77509D8B1BE1710200B10CD3 /* TZStackView */,
 				77F76A6C1B0BCAE600ED3E39 /* SwiftyJSON */,
@@ -3535,8 +3614,9 @@
 				BECB7B0E1924C0C3009C77F1 /* Foundation.framework */,
 				BECB7B101924C0C3009C77F1 /* CoreGraphics.framework */,
 				BECB7B121924C0C3009C77F1 /* UIKit.framework */,
-				C7C088336C8983E1C003D89D /* libPods-edX.a */,
-				4C3EB70CB728DFC1B9BC8CB8 /* libPods-edXTests.a */,
+				FD23FA6E0FEAE45E78B6435F /* Pods_edXCoreTests.framework */,
+				6CF2C5972B3D52CBEE4D5E26 /* libPods-edX.a */,
+				F8268D4966F0354A8B375E12 /* libPods-edXTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -3544,6 +3624,7 @@
 		BECB7B141924C0C3009C77F1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C1AFE9C6214804AE008A99A8 /* Category */,
 				B70BCFDC20B41C38005F0D19 /* SubjectsDiscovery */,
 				228E0B891F43137D0073E6FA /* Account View */,
 				1972E3B619BF474900085F08 /* Analytics */,
@@ -3817,6 +3898,83 @@
 			name = "Front Rear views";
 			sourceTree = "<group>";
 		};
+		C13899B8214925CF00EB969D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C13899BC214929A200EB969D /* AllCategories.swift */,
+				C13899BD214929A300EB969D /* CatChildren.swift */,
+				C13899BF214929A500EB969D /* CatData.swift */,
+				C13899BE214929A400EB969D /* CatResult.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C13899B92149264E00EB969D /* CategoryAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C13899BA2149268200EB969D /* CategoryAPI.swift */,
+			);
+			name = CategoryAPI;
+			sourceTree = "<group>";
+		};
+		C1AFE9C6214804AE008A99A8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C13899B92149264E00EB969D /* CategoryAPI */,
+				C1AFE9C921480649008A99A8 /* STBCategoryHomeViewController.swift */,
+				C1CC730B21491E0600EB7A45 /* STBSubCategoryViewController.swift */,
+				C1473EA92148D84A00723F0D /* STBCategoryCollectionViewCell.swift */,
+				C13899B8214925CF00EB969D /* Model */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		C1CC72FA2148FF7B00EB7A45 /* FSPagerView */ = {
+			isa = PBXGroup;
+			children = (
+				C1CC72FB2148FF7B00EB7A45 /* FSPageControl.swift */,
+				C1CC72FC2148FF7B00EB7A45 /* FSPagerCollectionView.swift */,
+				C1CC72FD2148FF7B00EB7A45 /* FSPagerView.swift */,
+				C1CC72FE2148FF7B00EB7A45 /* FSPagerViewCell.swift */,
+				C1CC72FF2148FF7B00EB7A45 /* FSPagerViewLayoutAttributes.swift */,
+				C1CC73002148FF7B00EB7A45 /* FSPageViewLayout.swift */,
+				C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */,
+			);
+			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		C1EA9D072149490F00A42FC8 /* ObjectMapper */ = {
+			isa = PBXGroup;
+			children = (
+				C1EA9D082149490F00A42FC8 /* CustomDateFormatTransform.swift */,
+				C1EA9D092149490F00A42FC8 /* DataTransform.swift */,
+				C1EA9D0A2149490F00A42FC8 /* DateFormatterTransform.swift */,
+				C1EA9D0B2149490F00A42FC8 /* DateTransform.swift */,
+				C1EA9D0C2149490F00A42FC8 /* DictionaryTransform.swift */,
+				C1EA9D0D2149490F00A42FC8 /* EnumOperators.swift */,
+				C1EA9D0E2149490F00A42FC8 /* EnumTransform.swift */,
+				C1EA9D0F2149490F00A42FC8 /* FromJSON.swift */,
+				C1EA9D102149490F00A42FC8 /* HexColorTransform.swift */,
+				C1EA9D112149490F00A42FC8 /* ImmutableMappable.swift */,
+				C1EA9D122149490F00A42FC8 /* Info.plist */,
+				C1EA9D132149490F00A42FC8 /* IntegerOperators.swift */,
+				C1EA9D142149490F00A42FC8 /* ISO8601DateTransform.swift */,
+				C1EA9D152149490F00A42FC8 /* Map.swift */,
+				C1EA9D162149490F00A42FC8 /* MapError.swift */,
+				C1EA9D172149490F00A42FC8 /* Mappable.swift */,
+				C1EA9D182149490F00A42FC8 /* Mapper.swift */,
+				C1EA9D192149490F00A42FC8 /* NSDecimalNumberTransform.swift */,
+				C1EA9D1A2149490F00A42FC8 /* ObjectMapper.h */,
+				C1EA9D1B2149490F00A42FC8 /* Operators.swift */,
+				C1EA9D1C2149490F00A42FC8 /* ToJSON.swift */,
+				C1EA9D1D2149490F00A42FC8 /* TransformOf.swift */,
+				C1EA9D1E2149490F00A42FC8 /* TransformOperators.swift */,
+				C1EA9D1F2149490F00A42FC8 /* TransformType.swift */,
+				C1EA9D202149490F00A42FC8 /* URLTransform.swift */,
+			);
+			path = ObjectMapper;
+			sourceTree = "<group>";
+		};
 		E03E6A131D38C90900944AAA /* Offline */ = {
 			isa = PBXGroup;
 			children = (
@@ -3951,7 +4109,7 @@
 				77BDD65E1A44BD7300EA2A9C /* Process Config */,
 				77B4BAF31A52152A00B14C39 /* Upload Debugging Symbols */,
 				77E647AC1C90C10400B6740D /* Embed Frameworks */,
-				A5227C8DDB2ED6310729C274 /* [CP] Copy Pods Resources */,
+				4108854B69F644736639C25F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4010,7 +4168,7 @@
 						TestTargetID = BECB7B0A1924C0C3009C77F1;
 					};
 					BECB7B0A1924C0C3009C77F1 = {
-						DevelopmentTeam = 57UCUYGPA2;
+						DevelopmentTeam = 65F532Z3JH;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -4084,7 +4242,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E021F46D1F739599007A26E7 /* logo@2x~ipad.png in Resources */,
 				B71AA1C720CEF64D00700C5E /* computer-science@2x.png in Resources */,
 				B71AA1BF20CEF64D00700C5E /* architecture@2x.png in Resources */,
 				B71AA19820CEF64D00700C5E /* data-science@3x.png in Resources */,
@@ -4133,7 +4290,6 @@
 				2245C9FC209C592A0097B23F /* PrivacyPolicy.htm in Resources */,
 				1AFEB1B91BBD88F3004C471D /* languages.json in Resources */,
 				9E7D1BCC1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard in Resources */,
-				69ECC6421D50D1170030CF87 /* logo@2x.png in Resources */,
 				69ECC61A1D50D1170030CF87 /* bt_grey_default.png in Resources */,
 				69ECC6161D50D1170030CF87 /* bt_facebook_RTL.png in Resources */,
 				B71AA19420CEF64D00700C5E /* art@3x.png in Resources */,
@@ -4167,6 +4323,7 @@
 				B71AA1A920CEF64D00700C5E /* medicine@3x.png in Resources */,
 				69ECC64A1D50D1170030CF87 /* launchBackground.png in Resources */,
 				69ECC6201D50D1170030CF87 /* bt_signin_deactive.png in Resources */,
+				C1AFE9C52147F902008A99A8 /* STBCategoryHome.storyboard in Resources */,
 				69ECC62F1D50D1170030CF87 /* ic_cancel@3x.png in Resources */,
 				B71AA1B820CEF64D00700C5E /* electronics@2x.png in Resources */,
 				B71AA1A520CEF64D00700C5E /* architecture@3x.png in Resources */,
@@ -4221,11 +4378,9 @@
 				B71AA1C120CEF64D00700C5E /* ethics@2x.png in Resources */,
 				B71AA1AF20CEF64D00700C5E /* health@3x.png in Resources */,
 				B71AA1CA20CEF64D00700C5E /* biology@2x.png in Resources */,
-				E039A8041F74C0D80064ABDB /* logo~ipad.png in Resources */,
 				69ECC6331D50D1170030CF87 /* ic_lms_blue.png in Resources */,
 				B71AA1CE20CEF64D00700C5E /* history@2x.png in Resources */,
 				69ECC6511D50D1170030CF87 /* handouts-announcements.css in Resources */,
-				69ECC6431D50D1170030CF87 /* logo@3x.png in Resources */,
 				69ECC6031D50D1170030CF87 /* OpenSans-Light.ttf in Resources */,
 				5D836DC91B2FA12E00411CAB /* DiscussionNewCommentViewController.xib in Resources */,
 				69ECC6101D50D1170030CF87 /* profilePhotoPlaceholder.png in Resources */,
@@ -4253,6 +4408,7 @@
 				B71AA1C320CEF64D00700C5E /* design@2x.png in Resources */,
 				B71AA1CD20CEF64D00700C5E /* literature@2x.png in Resources */,
 				E039A8031F74C0D80064ABDB /* loginScreenImage~ipad.png in Resources */,
+				C1CC730A21491C6300EB7A45 /* STBCategoryCollectionViewCell.xib in Resources */,
 				B71AA1AB20CEF64D00700C5E /* engineering@3x.png in Resources */,
 				69ECC63B1D50D1170030CF87 /* ic_watched@3x.png in Resources */,
 				E0E27FC41EC46D4000D1AEFE /* test_screen_1.png in Resources */,
@@ -4260,6 +4416,7 @@
 				19A1339519CAAC21003ADD24 /* OEXClosedCaptionTableViewCell.xib in Resources */,
 				805329101B0E80E50093B177 /* DiscussionResponses.storyboard in Resources */,
 				B71AA1BB20CEF64D00700C5E /* humanities@2x.png in Resources */,
+				C1EA9D2B2149490F00A42FC8 /* Info.plist in Resources */,
 				B71AA1AD20CEF64D00700C5E /* science@3x.png in Resources */,
 				22A4191D1EB1CF1500BBC8CA /* shareCourse.png in Resources */,
 				6960892D1D53935500EE66DD /* courseCertificate@3x.png in Resources */,
@@ -4332,6 +4489,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4108854B69F644736639C25F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-edX/Pods-edX-resources.sh",
+				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edX/Pods-edX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7753912C1C9397CE00FA959C /* Copy config */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4390,28 +4569,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "rm -f \"${BUILT_PRODUCTS_DIR}/Strings.swift\"\n\"${SRCROOT}/script/Localizations.swift\" \"${SRCROOT}/Source/en.lproj/Localizable.strings\" \"${BUILT_PRODUCTS_DIR}/Strings.swift\"\nchmod -w \"${BUILT_PRODUCTS_DIR}/Strings.swift\"\n";
-		};
-		A5227C8DDB2ED6310729C274 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-edX/Pods-edX-resources.sh",
-				"${PODS_ROOT}/DateTools/DateTools/DateTools.bundle",
-				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
-				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DateTools.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-edX/Pods-edX-resources.sh\"\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -4514,6 +4671,7 @@
 				779376571BF15C1B00900A8C /* FindCoursesWebViewHelper.swift in Sources */,
 				6919F5FF1D65CD27006935C8 /* OEXColors.swift in Sources */,
 				1904A14E1A1386C2006A5524 /* VideoData.m in Sources */,
+				C1EA9D2C2149490F00A42FC8 /* IntegerOperators.swift in Sources */,
 				7772BE801AF821540081CA7A /* UIBarButtonItem+OEXBlockActions.m in Sources */,
 				1904A1511A1386C2006A5524 /* OEXStorageFactory.m in Sources */,
 				778F17851C10A1B50099BF93 /* CourseCatalogDetailViewController.swift in Sources */,
@@ -4525,6 +4683,7 @@
 				778D53351B3D96E900441A98 /* ListCursor.swift in Sources */,
 				B7CCC735209B16B100A66923 /* ConstraintView+Extensions.swift in Sources */,
 				E0C6EF971BFF4B9900B315E3 /* UIButton+TintColor.swift in Sources */,
+				C1EA9D302149490F00A42FC8 /* Mappable.swift in Sources */,
 				B4B6D62A1A949F1B000F44E8 /* OEXRegistrationFieldSelectController.m in Sources */,
 				B4B6D5E51A9490E9000F44E8 /* OEXLoginSplashViewController.m in Sources */,
 				778F177C1C0D12780099BF93 /* CourseCatalogAPI.swift in Sources */,
@@ -4535,6 +4694,7 @@
 				191A002B19405E1B004F7902 /* OEXCourse.m in Sources */,
 				2240FD561FF266E4001D6589 /* TabBarItem.swift in Sources */,
 				E0A2461F1D5DA12A0066C766 /* AppStoreConfig.swift in Sources */,
+				C1EA9D332149490F00A42FC8 /* Operators.swift in Sources */,
 				7778F0981ABB1A6C00B4CDA0 /* NSError+OEXKnownErrors.m in Sources */,
 				224F1F532067B4E0009B3639 /* CustomSlider.swift in Sources */,
 				223972E11FE92BB500B2BBEC /* EnrolledTabBarViewController.swift in Sources */,
@@ -4546,6 +4706,7 @@
 				2231FF4D1F7A5F23002F3549 /* AnswerAnalyticsTracker.swift in Sources */,
 				E00523431CF81D9800B7F5C3 /* DiscussionBlockViewController.swift in Sources */,
 				B70BD00720B57E89005F0D19 /* OEXTabBarItemsCell.m in Sources */,
+				C13899C0214929A500EB969D /* AllCategories.swift in Sources */,
 				E02F65681E8B94CC000D1C4E /* TZSpacerView.swift in Sources */,
 				5DD0FFCF1B1D225C00837121 /* DiscussionNewPostViewController.swift in Sources */,
 				B4B285DF1A9A493A00DD603A /* OEXNewRelicConfig.m in Sources */,
@@ -4555,6 +4716,8 @@
 				1A3AFFE51BD56370002846F3 /* CropViewController.swift in Sources */,
 				7731813B1B6C1442000CC050 /* SeparatorInsetable.swift in Sources */,
 				B4B285DC1A9A490400DD603A /* OEXFacebookConfig.m in Sources */,
+				C1EA9D242149490F00A42FC8 /* DateTransform.swift in Sources */,
+				C1EA9D362149490F00A42FC8 /* TransformOperators.swift in Sources */,
 				9C9B7F6C1A8CC68400A857B2 /* OEXFindCoursesViewController.m in Sources */,
 				191A00201940560D004F7902 /* OEXDataParser.m in Sources */,
 				774B39391B5DD85A00595D33 /* UIView+LayoutDirection.swift in Sources */,
@@ -4562,12 +4725,16 @@
 				9EDCC51E1B395BDE00A4F39D /* CourseInfoAPI.swift in Sources */,
 				7758FFDE1C32FD6A0072355B /* EnrollmentShared.swift in Sources */,
 				5D43B1861B0C1F9200448B52 /* PostTableViewCell.swift in Sources */,
+				C1EA9D2F2149490F00A42FC8 /* MapError.swift in Sources */,
 				774BC7F41B4B0D700084F902 /* DiscussionTopic.swift in Sources */,
 				E054B09D1EC2E8C900FACBA6 /* OEXInterface+WhatsNew.swift in Sources */,
+				C13899C1214929A500EB969D /* CatChildren.swift in Sources */,
 				1913DD4419502E5D00573977 /* OEXVideoSummary.m in Sources */,
+				C1EA9D322149490F00A42FC8 /* NSDecimalNumberTransform.swift in Sources */,
 				9EAB5BE91B564C2F00CA9F3C /* ProgressController.swift in Sources */,
 				B7CCC71F209B16B100A66923 /* ConstraintDescription.swift in Sources */,
 				B70BD00820B57E8C005F0D19 /* OEXLastAccessedTableViewCell.m in Sources */,
+				C1CC73072148FF7B00EB7A45 /* FSPageViewLayout.swift in Sources */,
 				771273271BA36B76008BA397 /* LoggingAnalyticsTracker.swift in Sources */,
 				9E4E6C411B4BDB5C0034F7EB /* MockLastAccessedProvider.swift in Sources */,
 				9EEFFD651B300E87002A88B0 /* OEXInterface+Swift.swift in Sources */,
@@ -4575,6 +4742,7 @@
 				46CECC3C1B041D270073C63A /* AdditionalTableViewCell.swift in Sources */,
 				778F177A1C0D125A0099BF93 /* CoursesTableViewController.swift in Sources */,
 				77ADF4AF1AC1F80E00AC8955 /* OEXGoogleAuthProvider.m in Sources */,
+				C1EA9D212149490F00A42FC8 /* CustomDateFormatTransform.swift in Sources */,
 				1A7CEA331BABA8C70043A58C /* ProfileImageView.swift in Sources */,
 				77236EED1C21C376006AC1A4 /* Paginator.swift in Sources */,
 				B7CCC739209B16B100A66923 /* ConstraintRelatableTarget.swift in Sources */,
@@ -4587,6 +4755,8 @@
 				7725016A1C80FB5C002549A9 /* ServerChangedChecker.swift in Sources */,
 				E07107931C7591360004B76C /* DiscussionHelper.swift in Sources */,
 				77092C751B42E4C1004AA1A1 /* UIStatusBarStyle+Styles.swift in Sources */,
+				C1EA9D2D2149490F00A42FC8 /* ISO8601DateTransform.swift in Sources */,
+				C1CC73052148FF7B00EB7A45 /* FSPagerViewCell.swift in Sources */,
 				191A002E19405E97004F7902 /* OEXLatestUpdates.m in Sources */,
 				1AFEB1B61BBD5B95004C471D /* ProfilePictureTaker.swift in Sources */,
 				B7CCC723209B16B100A66923 /* ConstraintPriorityTarget.swift in Sources */,
@@ -4598,6 +4768,7 @@
 				BE0D454A192DD4F800D720D6 /* OEXNetworkInterface.m in Sources */,
 				B419295E1A8A3F1900448AD5 /* OEXNetworkManager.m in Sources */,
 				E0A2461D1D5CA6950066C766 /* LogoutApi.swift in Sources */,
+				C1EA9D2E2149490F00A42FC8 /* Map.swift in Sources */,
 				E02E59EF1F0E231000060AE0 /* VersionParser.swift in Sources */,
 				770A27961A6995DF00DFC6FF /* NSArray+OEXFunctional.m in Sources */,
 				9CADE2F71A91E91A00ACDAF7 /* NSURL+OEXPathExtensions.m in Sources */,
@@ -4607,6 +4778,7 @@
 				E02F656A1E8B94CC000D1C4E /* TZStackViewDistribution.swift in Sources */,
 				77D76BFD1AA5076D00C51C2C /* OEXLocalizedString.m in Sources */,
 				E0D159971EB87700005E2A76 /* WhatsNewObject.swift in Sources */,
+				C1CC73042148FF7B00EB7A45 /* FSPagerView.swift in Sources */,
 				778F17781C0D123F0099BF93 /* CourseCatalogViewController.swift in Sources */,
 				1AB539E41BFA24DC0065501F /* CertificateViewController.swift in Sources */,
 				69E1CD011D7D7BA300531449 /* OEXRegistrationViewController+Swift.swift in Sources */,
@@ -4619,10 +4791,12 @@
 				BECB7B691924EE11009C77F1 /* OEXLoginViewController.m in Sources */,
 				227386A7204EBF26007AA396 /* VideoPlayerControls.swift in Sources */,
 				1AAD95F61CEA222500BBF70C /* StartupViewController.swift in Sources */,
+				C1CC73082148FF7B00EB7A45 /* FSPageViewTransformer.swift in Sources */,
 				B7CCC737209B16B100A66923 /* Constraint.swift in Sources */,
 				1A5501A21BBA323700D5F9DD /* ProfileBanner.swift in Sources */,
 				B7CCC738209B16B100A66923 /* Debugging.swift in Sources */,
 				77C6BBCA1CB4BC6F0026C37B /* AccomplishmentsView.swift in Sources */,
+				C1EA9D222149490F00A42FC8 /* DataTransform.swift in Sources */,
 				B7CCC72F209B16B100A66923 /* ConstraintConstantTarget.swift in Sources */,
 				77509D981BE1916600B10CD3 /* UserProfileManager.swift in Sources */,
 				77E209851AF158190071316D /* CourseOutline.swift in Sources */,
@@ -4634,6 +4808,7 @@
 				77691FA31B3B4596003922F2 /* UIColor+OEXHex.m in Sources */,
 				E01F45671E03D04100B9D7DC /* FirebaseAnalyticsTracker.swift in Sources */,
 				B7CCC724209B16B100A66923 /* ConstraintInsets.swift in Sources */,
+				C1EA9D292149490F00A42FC8 /* HexColorTransform.swift in Sources */,
 				B7CCC72A209B16B100A66923 /* ConstraintConfig.swift in Sources */,
 				B7CCC72B209B16B100A66923 /* UILayoutSupport+Extensions.swift in Sources */,
 				9EEB85A71BD6564E000F3E9E /* PressableCustomButton.swift in Sources */,
@@ -4642,11 +4817,13 @@
 				B760E554200DD6E800ECACAB /* CourseVideosHeaderView.swift in Sources */,
 				198826E81952FE39005D4D8A /* OEXOpenInBrowserViewController.m in Sources */,
 				E02F65691E8B94CC000D1C4E /* TZStackViewAlignment.swift in Sources */,
+				C1CC73032148FF7B00EB7A45 /* FSPagerCollectionView.swift in Sources */,
 				B7CCC725209B16B100A66923 /* ConstraintMakerFinalizable.swift in Sources */,
 				778B82EC1A520F2A0040D9E0 /* OEXEnvironment.m in Sources */,
 				B7CCC726209B16B100A66923 /* ConstraintDSL.swift in Sources */,
 				77503E8A1B275F4500C47229 /* UIDevice+OSVersion.swift in Sources */,
 				B41F22BB1A113D3D0022E01F /* OEXDownloadManager.m in Sources */,
+				C13899C3214929A500EB969D /* CatData.swift in Sources */,
 				B4B6D61B1A949F0F000F44E8 /* OEXRegistrationFieldCheckBoxView.m in Sources */,
 				77FDF4111AFBF0C300E8C639 /* VideoBlockViewController.swift in Sources */,
 				77AFD11C1C1B76D0001985FD /* NSObject+SafeKVO.swift in Sources */,
@@ -4666,9 +4843,11 @@
 				B4D5C7EB1A6FBAA300427D1D /* OEXAccessToken.m in Sources */,
 				7C2DD5531D4A8669006148E0 /* UserPreferenceManager.swift in Sources */,
 				777DE71A1C1656ED0068E280 /* CourseCatalogDetailView.swift in Sources */,
+				C1EA9D272149490F00A42FC8 /* EnumTransform.swift in Sources */,
 				775EB3AC1B1FC37C009526A8 /* SpinnerView.swift in Sources */,
 				B760E5562010DD6800ECACAB /* BulkDownloadHelper.swift in Sources */,
 				8FE04B4D1A1E2637007F88B8 /* OEXFBSocial.m in Sources */,
+				C1CC73062148FF7B00EB7A45 /* FSPagerViewLayoutAttributes.swift in Sources */,
 				9EDB10B41B0C732300C760C6 /* CourseGenericBlockTableViewCell.swift in Sources */,
 				B78823A61FC6F59A00F9CD61 /* RegistrationTextField.swift in Sources */,
 				B4D5C7EC1A6FBAA300427D1D /* OEXPersistentCredentialStorage.m in Sources */,
@@ -4682,6 +4861,7 @@
 				22F6A15B20B7E62D009C3F4A /* String+DecodeHTMLEntities.swift in Sources */,
 				697652261D9BA7C80031FF8B /* OEXColorsDataFactory.swift in Sources */,
 				77AF07771CB42AC400A42704 /* TabContainerView.swift in Sources */,
+				C1EA9D342149490F00A42FC8 /* ToJSON.swift in Sources */,
 				199B9B751935E35D00081A09 /* OEXHelperVideoDownload.m in Sources */,
 				BECB7B1F1924C0C3009C77F1 /* OEXAppDelegate.m in Sources */,
 				B7CCC722209B16B100A66923 /* ConstraintViewDSL.swift in Sources */,
@@ -4691,6 +4871,7 @@
 				1A8AC0C01BB49EC5009D8F5E /* UserProfile.swift in Sources */,
 				E06292751F7BAFFF006D5EFC /* BranchConfig.swift in Sources */,
 				B7A09BDC20F8CAFB00A6C249 /* URL+PathExtension.swift in Sources */,
+				C1EA9D252149490F00A42FC8 /* DictionaryTransform.swift in Sources */,
 				B70BD00420B57AF3005F0D19 /* SubjectsCollectionView.swift in Sources */,
 				1AC147371BCEB14900E0A230 /* CGRect+OEXHelpers.swift in Sources */,
 				7714A2601AB37CF7004C2254 /* OEXRegistrationFieldError.m in Sources */,
@@ -4715,16 +4896,19 @@
 				E08A008B1CF7546200F92DE7 /* DiscussionModel.swift in Sources */,
 				9ED168B01B29A9EF00AA7B5B /* CouseLastAccessed.swift in Sources */,
 				227386AA2057C0AA007AA396 /* TranscriptParser.swift in Sources */,
+				C1CC730C21491E0600EB7A45 /* STBSubCategoryViewController.swift in Sources */,
 				1AAD95F81CEB725900BBF70C /* OEXTextStyle+Swift.swift in Sources */,
 				1A67E5411BD7D61800C53401 /* Feed.swift in Sources */,
 				22A1B6FF206CFFA3001C1704 /* TranscriptManager.swift in Sources */,
 				B4B285D91A9A48D500DD603A /* OEXGoogleConfig.m in Sources */,
 				9E1D95321B68CEA000ABE764 /* UIButton+Accessibility.swift in Sources */,
+				C1473EAA2148D84A00723F0D /* STBCategoryCollectionViewCell.swift in Sources */,
 				223895D21F25CF76005B9C15 /* SwipeCellActionView.swift in Sources */,
 				1A373E911C45807D00E3AAAA /* NSError+JSON.swift in Sources */,
 				697B5A091D92DB3F002C3ABD /* RegistrationFormAPI.swift in Sources */,
 				77D6A9A41C28F32900E67CCF /* CoursesAPI.swift in Sources */,
 				778B40D91C2F62520009F33E /* EnrollmentManager.swift in Sources */,
+				C1EA9D232149490F00A42FC8 /* DateFormatterTransform.swift in Sources */,
 				22AB76181FFF62A80082F4EE /* CourseCertificateView.swift in Sources */,
 				774B393B1B5EEF8A00595D33 /* UIAlertController+Selection.swift in Sources */,
 				B7C5DB3820B6C73700D80AD2 /* PopularSubjectsViewController.swift in Sources */,
@@ -4736,6 +4920,7 @@
 				77EA92261BB4590A00EC625A /* DownloadsAccessoryView.swift in Sources */,
 				3F92D6E620B19C9B00A69806 /* AgreementURLsConfig.swift in Sources */,
 				77ADF4A61AC1B35000AC8955 /* OEXExternalAuthProviderButton.m in Sources */,
+				C13899BB2149268200EB969D /* CategoryAPI.swift in Sources */,
 				77C182AA1CD2E46900AE1474 /* TablePaginationManipulator.swift in Sources */,
 				0B1212221B4F089A002EE96C /* OEXCoursewareAccess.m in Sources */,
 				77DCD2391C2B13AA00CAEBB5 /* EnrolledCoursesFooterView.swift in Sources */,
@@ -4760,6 +4945,8 @@
 				9C9B7F731A8CC80E00A857B2 /* OEXURLSessionManager.m in Sources */,
 				699FF8541E5AE74300AD98A5 /* EmailTemplates.swift in Sources */,
 				199627A71945D95D0022C489 /* OEXFrontTableViewCell.m in Sources */,
+				C1473EAC2148E0C800723F0D /* UIExtension.swift in Sources */,
+				C1EA9D282149490F00A42FC8 /* FromJSON.swift in Sources */,
 				B7CCC71D209B16B100A66923 /* ConstraintMultiplierTarget.swift in Sources */,
 				1913DD3D194B267000573977 /* OEXDownloadViewController.m in Sources */,
 				B78823AC1FC709BD00F9CD61 /* String+Validation.swift in Sources */,
@@ -4787,10 +4974,13 @@
 				223895CF1F25CF76005B9C15 /* SwipeableCell.swift in Sources */,
 				777DE7141C1630110068E280 /* CourseMediaInfo.swift in Sources */,
 				E01591F21D533F3B00201B15 /* UIViewController+CommonAdditions.swift in Sources */,
+				C1CC73022148FF7B00EB7A45 /* FSPageControl.swift in Sources */,
 				F22A0ABD1CE660B300D50DFF /* LoginApi.swift in Sources */,
 				773181371B697644000CC050 /* DiscussionDataManager.swift in Sources */,
 				77AFD10B1C1A04C3001985FD /* UserAgentOverrideOverrideOperation.swift in Sources */,
 				77D5F43F1C1F1C8F0079E228 /* OEXCourse+TestData.swift in Sources */,
+				C1EA9D382149490F00A42FC8 /* URLTransform.swift in Sources */,
+				C1AFE9CA21480649008A99A8 /* STBCategoryHomeViewController.swift in Sources */,
 				77ADF4AC1AC1F31200AC8955 /* OEXExternalAuthOptionsView.m in Sources */,
 				1A3F456C1BED00FB0077A40C /* IconButton.swift in Sources */,
 				7773D1A91B1E557D0037214B /* OEXVideoEncoding.m in Sources */,
@@ -4813,6 +5003,8 @@
 				77FFA2BE1AC3031900B4D69B /* OEXUsingExternalAuthHeadingView.m in Sources */,
 				775DF41A1AFAB04300F96B2F /* CourseDataManager.swift in Sources */,
 				223DD6BB1F9F5A4B004A21B9 /* CourseDashboardViewController.swift in Sources */,
+				C1EA9D2A2149490F00A42FC8 /* ImmutableMappable.swift in Sources */,
+				C1EA9D352149490F00A42FC8 /* TransformOf.swift in Sources */,
 				7793764D1BED27D000900A8C /* BasicAuthCredential.swift in Sources */,
 				B7CCC72D209B16B100A66923 /* ConstraintLayoutGuide.swift in Sources */,
 				B4B285E51A9A49FF00DD603A /* OEXFabricConfig.m in Sources */,
@@ -4835,12 +5027,14 @@
 				5D836DCA1B2FA12E00411CAB /* DiscussionNewCommentViewController.swift in Sources */,
 				1AFEB1B11BBD51EE004C471D /* JSONFormBuilderChooser.swift in Sources */,
 				19321F651961698B00B7D75C /* OEXDownloadTableCell.m in Sources */,
+				C1EA9D312149490F00A42FC8 /* Mapper.swift in Sources */,
 				B7CCC730209B16B100A66923 /* ConstraintOffsetTarget.swift in Sources */,
 				E076A5C21C7DB624008A99C6 /* DiscussionResponsesDataController.swift in Sources */,
 				1A5AC5801B94ED0D00885187 /* CourseCardViewModel.swift in Sources */,
 				77FFA2CC1AC35CE800B4D69B /* OEXRegistrationStyles.m in Sources */,
 				77567B771AC9FC1400877A7B /* NSNotificationCenter+OEXSafeAccess.m in Sources */,
 				9E4E6C3F1B4BBB5C0034F7EB /* LastAccessedProvider.swift in Sources */,
+				C13899C2214929A500EB969D /* CatResult.swift in Sources */,
 				B4B6D5E91A9490FC000F44E8 /* OEXRegistrationViewController.m in Sources */,
 				77ADF4A31AC1AF9800AC8955 /* OEXFacebookAuthProvider.m in Sources */,
 				775434831AD7394D00635A40 /* OEXPushNotificationManager.m in Sources */,
@@ -4876,6 +5070,7 @@
 				77EC889E1AB787630050F9CF /* OEXAnalyticsData.m in Sources */,
 				7772BE961AF9587E0081CA7A /* CourseContentPageViewController.swift in Sources */,
 				9EDB10B61B0C742C00C760C6 /* CourseOutlineItemView.swift in Sources */,
+				C1EA9D372149490F00A42FC8 /* TransformType.swift in Sources */,
 				1A5501A01BBA316900D5F9DD /* UserProfileEditViewController.swift in Sources */,
 				B4B6C80D1A9C7AEA004F0FAF /* OEXPlaceholderTextView.m in Sources */,
 				77E648781C91330D00B6740D /* Result+Conveniences.swift in Sources */,
@@ -4885,6 +5080,7 @@
 				E06292771F7BB452006D5EFC /* FabricKits.swift in Sources */,
 				B70BD00A20B57E92005F0D19 /* OEXCourseInfoCell.m in Sources */,
 				BECB7B1B1924C0C3009C77F1 /* main.m in Sources */,
+				C1EA9D262149490F00A42FC8 /* EnumOperators.swift in Sources */,
 				77691F981B38A09B003922F2 /* NSAttributedString+Combination.swift in Sources */,
 				77ADF4B31AC1FACC00AC8955 /* OEXTextStyle.m in Sources */,
 				221D31821EC08B69001D8D71 /* CourseDatesViewController.swift in Sources */,
@@ -5236,7 +5432,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5253,7 +5449,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybytech;
 				PRODUCT_NAME = edX;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5682,7 +5878,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5698,7 +5894,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "-D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybytech;
 				PRODUCT_NAME = edX;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -5722,7 +5918,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5739,7 +5935,7 @@
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = org.edx.mobile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.studybytech;
 				PRODUCT_NAME = edX;
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

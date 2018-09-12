@@ -18,6 +18,7 @@
 
 @property (strong, nonatomic) IBOutlet UIButton* signInButton;
 @property (strong, nonatomic) IBOutlet UIButton* signUpButton;
+@property (strong, nonatomic) IBOutlet UIButton* skipButton;
 
 @property (strong, nonatomic) RouterEnvironment* environment;
 
@@ -38,6 +39,7 @@
     
     [self.signInButton setTitle:[Strings loginSplashSignIn] forState:UIControlStateNormal];
     [self.signUpButton applyButtonStyleWithStyle:[self.environment.styles filledPrimaryButtonStyle] withTitle:[Strings loginSplashSignUp]];
+    [self.skipButton applyButtonStyleWithStyle:[self.environment.styles filledPrimaryButtonStyle] withTitle:@"Skip for now!"];
     [self.signInButton.titleLabel setFont:[self.environment.styles boldSansSerifOfSize:14.0f]];
     [self.signInButton setAccessibilityIdentifier:@"LoginSpashViewController:sign-in-button"];
     [self.signInButton setAccessibilityIdentifier:@"LoginSpashViewController:sign-up-button"];
@@ -54,6 +56,9 @@
 
 - (IBAction)showRegistration:(id)sender {
     [self.environment.router showSignUpScreenFromController:self completion:nil];
+}
+- (IBAction)skipSignIn:(UIButton *)sender {
+    [self.environment.router showEnrolledTabBarView];
 }
 
 - (BOOL) shouldAutorotate {

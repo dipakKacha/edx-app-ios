@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,6 +14,7 @@
             <connections>
                 <outlet property="signInButton" destination="dJC-c2-JVU" id="GkN-i6-f70"/>
                 <outlet property="signUpButton" destination="AEY-cT-K95" id="FUr-Ml-oWt"/>
+                <outlet property="skipButton" destination="fkT-OD-sIz" id="dbS-8y-xSu"/>
                 <outlet property="view" destination="IfH-km-N4o" id="hud-pD-B81"/>
             </connections>
         </placeholder>
@@ -22,11 +23,11 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="SIO-jm-HLG">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SIO-jm-HLG">
                     <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-zR-AIM">
-                    <rect key="frame" x="117" y="46" width="141" height="65"/>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="KSL-zR-AIM">
+                    <rect key="frame" x="85.5" y="46" width="204" height="201"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AEY-cT-K95">
                     <rect key="frame" x="62.5" y="530" width="250" height="44"/>
@@ -61,12 +62,28 @@
                         <action selector="showLogin:" destination="-1" eventType="touchUpInside" id="bpi-ei-60F"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fkT-OD-sIz">
+                    <rect key="frame" x="62" y="478" width="250" height="44"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <accessibility key="accessibilityConfiguration" identifier="register"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="N02-uO-wJ9"/>
+                        <constraint firstAttribute="height" constant="44" id="unb-ED-wEu"/>
+                    </constraints>
+                    <state key="normal" title="Skip Sign in">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="bt_signin_active.png"/>
+                    <connections>
+                        <action selector="skipSignIn:" destination="-1" eventType="touchUpInside" id="NiD-qN-Xw8"/>
+                    </connections>
+                </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <accessibility key="accessibilityConfiguration" identifier="splash-screen"/>
             <constraints>
                 <constraint firstItem="dCr-uy-BzX" firstAttribute="top" secondItem="SIO-jm-HLG" secondAttribute="top" id="2QO-Yy-Lzb"/>
-                <constraint firstItem="AEY-cT-K95" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KSL-zR-AIM" secondAttribute="bottom" id="3V1-HQ-qtm"/>
                 <constraint firstAttribute="centerX" secondItem="AEY-cT-K95" secondAttribute="centerX" id="4Xu-hT-26y"/>
                 <constraint firstItem="KSL-zR-AIM" firstAttribute="top" secondItem="IfH-km-N4o" secondAttribute="top" constant="46" id="6sf-dG-AbH"/>
                 <constraint firstItem="SIO-jm-HLG" firstAttribute="trailing" secondItem="dCr-uy-BzX" secondAttribute="trailing" id="8x1-ce-Spy"/>
@@ -78,6 +95,9 @@
                 <constraint firstAttribute="centerX" secondItem="dJC-c2-JVU" secondAttribute="centerX" id="cab-Re-AdF"/>
                 <constraint firstAttribute="centerX" secondItem="KSL-zR-AIM" secondAttribute="centerX" id="fNT-bT-cQp"/>
                 <constraint firstItem="dJC-c2-JVU" firstAttribute="top" secondItem="AEY-cT-K95" secondAttribute="bottom" constant="26" id="nyP-Mu-POU"/>
+                <constraint firstItem="AEY-cT-K95" firstAttribute="top" secondItem="fkT-OD-sIz" secondAttribute="bottom" constant="8" id="sCd-Ge-HI8"/>
+                <constraint firstItem="fkT-OD-sIz" firstAttribute="centerX" secondItem="IfH-km-N4o" secondAttribute="centerX" id="tX3-Nx-Dav"/>
+                <constraint firstItem="fkT-OD-sIz" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KSL-zR-AIM" secondAttribute="bottom" id="uuL-xo-wbp"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="dCr-uy-BzX"/>
         </view>
@@ -148,6 +168,7 @@
     <resources>
         <image name="bt_signin_active.png" width="525" height="100"/>
         <image name="launchBackground.png" width="1122" height="1920"/>
+        <image name="logo" width="204" height="201"/>
         <image name="logo.png" width="141" height="65"/>
     </resources>
 </document>
