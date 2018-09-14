@@ -16,8 +16,13 @@ class CourseCatalogViewController: UIViewController, CoursesTableViewControllerD
     private let loadController = LoadStateViewController()
     private let insetsController = ContentInsetsController()
     
-    init(environment : Environment) {
+    var categoryId:Int?
+    
+    init(environment : Environment, categoryId: Int? = nil) {
         self.environment = environment
+        if let catId = categoryId {
+            self.categoryId = catId
+        }
         self.tableController = CoursesTableViewController(environment: environment, context: .CourseCatalog)
         super.init(nibName: nil, bundle: nil)
         self.navigationItem.title = Strings.findCourses
@@ -34,10 +39,18 @@ class CourseCatalogViewController: UIViewController, CoursesTableViewControllerD
         precondition(username != "", "Shouldn't be showing course catalog without a logged in user")
         let organizationCode =  self.environment.config.organizationCode()
         
-        let paginator = WrappedPaginator(networkManager: self.environment.networkManager) { page in
-            return CourseCatalogAPI.getCourseCatalog(userID: username, page: page, organizationCode: organizationCode)
+        var paginator:WrappedPaginator<OEXCourse>?
+        if self.categoryId != nil {
+            paginator = WrappedPaginator(networkManager: self.environment.networkManager) { page in
+                return CourseCatalogAPI.getCourseCatalog(categoryID: self.categoryId!, userID: username, page: page, organizationCode: organizationCode)
+            }
+        } else {
+            paginator = WrappedPaginator(networkManager: self.environment.networkManager) { page in
+                return CourseCatalogAPI.getCourseCatalog(userID: username, page: page, organizationCode: organizationCode)
+            }
         }
-        return PaginationController(paginator: paginator, tableView: self.tableController.tableView)
+        
+        return PaginationController(paginator: paginator!, tableView: self.tableController.tableView)
     }()
     
     override func viewDidLoad() {

@@ -88,7 +88,8 @@ class EnrolledTabBarViewController: UITabBarController, UITabBarControllerDelega
             case .Course:
 //                item = TabBarItem(title: option.title(), viewController: EnrolledCoursesViewController(environment: environment), icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
                 let storyboard = UIStoryboard.init(name: "STBCategoryHome", bundle: nil)
-                let categoryController = storyboard.instantiateViewController(withIdentifier: "STBCategoryHomeViewController")
+                let categoryController = storyboard.instantiateViewController(withIdentifier: "STBCategoryHomeViewController") as! STBCategoryHomeViewController
+                categoryController.environment = environment
                 item = TabBarItem(title: option.title(), viewController: categoryController, icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
                 tabBarItems.append(item)
             case .Program:

@@ -38,6 +38,7 @@ NSString* const OEXAnalyticsValueOrientationPortrait = @"portrait";
 NSString* const OEXAnalyticsValuePhotoSourceCamera = @"camera";
 NSString* const OEXAnalyticsValuePhotoSourceLibrary = @"library";
 
+NSString* const STBAnalyticsScreenCategory = @"Category";
 NSString* const OEXAnalyticsScreenLaunch = @"Launch";
 NSString* const OEXAnalyticsScreenRegister = @"Register";
 NSString* const OEXAnalyticsScreenCourseDashboard = @"Course Dashboard";

@@ -22,6 +22,7 @@ pod 'Firebase/Core', '= 3.11.0'
 pod 'Branch', '= 0.23.5'
 
 # StudyByTech
+pod 'SDWebImage', '~> 4.0'
 #pod 'ObjectMapper', '~> 3.3'
 #pod 'FSPagerView', '~> 0.4.1'
 end

@@ -2,7 +2,7 @@
 import Foundation
 
 struct AllCategories : Mappable {
-	var result : [CatResult]?
+	var results : [CatResult]?
 
 	init?(map: Map) {
 
@@ -10,7 +10,7 @@ struct AllCategories : Mappable {
 
 	mutating func mapping(map: Map) {
 
-		result <- map["result"]
+		results <- map["results"]
 	}
 
 }

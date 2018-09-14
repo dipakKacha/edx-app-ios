@@ -33,6 +33,22 @@ public struct CourseCatalogAPI {
         case Org = "org"
     }
     
+    public static func getCourseCatalog(categoryID: Int, userID: String, page: Int, organizationCode: String?)  -> NetworkRequest<Paginated<[OEXCourse]>> {
+        var query = [Params.Mobile.rawValue: JSON(true), Params.User.rawValue: JSON(userID)]
+        
+        if let orgCode = organizationCode {
+            query[Params.Org.rawValue] = JSON(orgCode)
+        }
+        
+        return NetworkRequest(
+            method: .GET,
+            path : "api/courses/v1/courses/?course_category_id=\(categoryID)",
+            requiresAuth : true,
+            query : query,
+            deserializer: .jsonResponse(coursesDeserializer)
+            ).paginated(page: page)
+    }
+    
     public static func getCourseCatalog(userID: String, page : Int, organizationCode: String?) -> NetworkRequest<Paginated<[OEXCourse]>> {
         var query = [Params.Mobile.rawValue: JSON(true), Params.User.rawValue: JSON(userID)]
         

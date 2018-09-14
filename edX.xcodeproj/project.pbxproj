@@ -789,6 +789,12 @@
 		C1CC73082148FF7B00EB7A45 /* FSPageViewTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */; };
 		C1CC730A21491C6300EB7A45 /* STBCategoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */; };
 		C1CC730C21491E0600EB7A45 /* STBSubCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC730B21491E0600EB7A45 /* STBSubCategoryViewController.swift */; };
+		C1DB5B22214A5F510054B600 /* Pagination.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B1E214A5F510054B600 /* Pagination.swift */; };
+		C1DB5B23214A5F510054B600 /* PromoCourseResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B1F214A5F510054B600 /* PromoCourseResults.swift */; };
+		C1DB5B24214A5F510054B600 /* PromotionalCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B20214A5F510054B600 /* PromotionalCourses.swift */; };
+		C1DB5B85214A923F0054B600 /* Course_video.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B83214A923E0054B600 /* Course_video.swift */; };
+		C1DB5B86214A923F0054B600 /* Course_image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B84214A923F0054B600 /* Course_image.swift */; };
+		C1DB5B88214A92990054B600 /* PromoCourseMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB5B87214A92980054B600 /* PromoCourseMedia.swift */; };
 		C1EA9D212149490F00A42FC8 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D082149490F00A42FC8 /* CustomDateFormatTransform.swift */; };
 		C1EA9D222149490F00A42FC8 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D092149490F00A42FC8 /* DataTransform.swift */; };
 		C1EA9D232149490F00A42FC8 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EA9D0A2149490F00A42FC8 /* DateFormatterTransform.swift */; };
@@ -1847,6 +1853,12 @@
 		C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageViewTransformer.swift; sourceTree = "<group>"; };
 		C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = STBCategoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		C1CC730B21491E0600EB7A45 /* STBSubCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBSubCategoryViewController.swift; sourceTree = "<group>"; };
+		C1DB5B1E214A5F510054B600 /* Pagination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pagination.swift; sourceTree = "<group>"; };
+		C1DB5B1F214A5F510054B600 /* PromoCourseResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoCourseResults.swift; sourceTree = "<group>"; };
+		C1DB5B20214A5F510054B600 /* PromotionalCourses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionalCourses.swift; sourceTree = "<group>"; };
+		C1DB5B83214A923E0054B600 /* Course_video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course_video.swift; sourceTree = "<group>"; };
+		C1DB5B84214A923F0054B600 /* Course_image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Course_image.swift; sourceTree = "<group>"; };
+		C1DB5B87214A92980054B600 /* PromoCourseMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromoCourseMedia.swift; sourceTree = "<group>"; };
 		C1EA9D082149490F00A42FC8 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDateFormatTransform.swift; sourceTree = "<group>"; };
 		C1EA9D092149490F00A42FC8 /* DataTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTransform.swift; sourceTree = "<group>"; };
 		C1EA9D0A2149490F00A42FC8 /* DateFormatterTransform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatterTransform.swift; sourceTree = "<group>"; };
@@ -3901,6 +3913,7 @@
 		C13899B8214925CF00EB969D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C1DB5B1C214A5F510054B600 /* PromotionalCourses */,
 				C13899BC214929A200EB969D /* AllCategories.swift */,
 				C13899BD214929A300EB969D /* CatChildren.swift */,
 				C13899BF214929A500EB969D /* CatData.swift */,
@@ -3941,6 +3954,19 @@
 				C1CC73012148FF7B00EB7A45 /* FSPageViewTransformer.swift */,
 			);
 			path = FSPagerView;
+			sourceTree = "<group>";
+		};
+		C1DB5B1C214A5F510054B600 /* PromotionalCourses */ = {
+			isa = PBXGroup;
+			children = (
+				C1DB5B87214A92980054B600 /* PromoCourseMedia.swift */,
+				C1DB5B1E214A5F510054B600 /* Pagination.swift */,
+				C1DB5B1F214A5F510054B600 /* PromoCourseResults.swift */,
+				C1DB5B20214A5F510054B600 /* PromotionalCourses.swift */,
+				C1DB5B84214A923F0054B600 /* Course_image.swift */,
+				C1DB5B83214A923E0054B600 /* Course_video.swift */,
+			);
+			path = PromotionalCourses;
 			sourceTree = "<group>";
 		};
 		C1EA9D072149490F00A42FC8 /* ObjectMapper */ = {
@@ -4153,16 +4179,19 @@
 				TargetAttributes = {
 					77E6478D1C90C10300B6740D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 65F532Z3JH;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					77E647961C90C10300B6740D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 65F532Z3JH;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					77E6482F1C91016300B6740D = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 65F532Z3JH;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BECB7B0A1924C0C3009C77F1;
@@ -4187,7 +4216,7 @@
 						};
 					};
 					BECB7B2B1924C0C3009C77F1 = {
-						DevelopmentTeam = 57UCUYGPA2;
+						DevelopmentTeam = 65F532Z3JH;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = BECB7B0A1924C0C3009C77F1;
@@ -4669,6 +4698,7 @@
 				BE0D4551192DE65200D720D6 /* OEXInterface.m in Sources */,
 				77F9C1741B0D496B004D39E7 /* CourseStructureAPI.swift in Sources */,
 				779376571BF15C1B00900A8C /* FindCoursesWebViewHelper.swift in Sources */,
+				C1DB5B86214A923F0054B600 /* Course_image.swift in Sources */,
 				6919F5FF1D65CD27006935C8 /* OEXColors.swift in Sources */,
 				1904A14E1A1386C2006A5524 /* VideoData.m in Sources */,
 				C1EA9D2C2149490F00A42FC8 /* IntegerOperators.swift in Sources */,
@@ -4680,6 +4710,7 @@
 				F22A0ABB1CE60D5E00D50DFF /* NetworkManager+Authenticators.swift in Sources */,
 				9EC6E1001BDE40E100729704 /* OEXCourse+Swift.swift in Sources */,
 				7706AAC11BCFEEBF00728432 /* NSAttributedString+Formatting.swift in Sources */,
+				C1DB5B24214A5F510054B600 /* PromotionalCourses.swift in Sources */,
 				778D53351B3D96E900441A98 /* ListCursor.swift in Sources */,
 				B7CCC735209B16B100A66923 /* ConstraintView+Extensions.swift in Sources */,
 				E0C6EF971BFF4B9900B315E3 /* UIButton+TintColor.swift in Sources */,
@@ -4785,6 +4816,7 @@
 				19BB622A1A9B28F1007DBF47 /* OEXRegistrationFieldWrapperView.m in Sources */,
 				9E1081081B8B7EEC00888746 /* PaginatedFeed.swift in Sources */,
 				B7CCC720209B16B100A66923 /* ConstraintMakerPriortizable.swift in Sources */,
+				C1DB5B85214A923F0054B600 /* Course_video.swift in Sources */,
 				B4B6D6061A949EFC000F44E8 /* OEXRegistrationErrorMessage.m in Sources */,
 				80056C9A1B0CDE1A0004D85C /* DiscussionResponsesViewController.swift in Sources */,
 				775716B91CB804E40091AB10 /* UserProfilePresenter.swift in Sources */,
@@ -4805,6 +4837,7 @@
 				B4B6D6481A95CF33000F44E8 /* OEXUserLicenseAgreementViewController.m in Sources */,
 				69EFBB0D1E36270000FF66C4 /* RatingContainerView.swift in Sources */,
 				B4B6D62D1A949F1B000F44E8 /* OEXRegistrationFieldCheckBoxController.m in Sources */,
+				C1DB5B23214A5F510054B600 /* PromoCourseResults.swift in Sources */,
 				77691FA31B3B4596003922F2 /* UIColor+OEXHex.m in Sources */,
 				E01F45671E03D04100B9D7DC /* FirebaseAnalyticsTracker.swift in Sources */,
 				B7CCC724209B16B100A66923 /* ConstraintInsets.swift in Sources */,
@@ -4818,6 +4851,7 @@
 				198826E81952FE39005D4D8A /* OEXOpenInBrowserViewController.m in Sources */,
 				E02F65691E8B94CC000D1C4E /* TZStackViewAlignment.swift in Sources */,
 				C1CC73032148FF7B00EB7A45 /* FSPagerCollectionView.swift in Sources */,
+				C1DB5B88214A92990054B600 /* PromoCourseMedia.swift in Sources */,
 				B7CCC725209B16B100A66923 /* ConstraintMakerFinalizable.swift in Sources */,
 				778B82EC1A520F2A0040D9E0 /* OEXEnvironment.m in Sources */,
 				B7CCC726209B16B100A66923 /* ConstraintDSL.swift in Sources */,
@@ -4864,6 +4898,7 @@
 				C1EA9D342149490F00A42FC8 /* ToJSON.swift in Sources */,
 				199B9B751935E35D00081A09 /* OEXHelperVideoDownload.m in Sources */,
 				BECB7B1F1924C0C3009C77F1 /* OEXAppDelegate.m in Sources */,
+				C1DB5B22214A5F510054B600 /* Pagination.swift in Sources */,
 				B7CCC722209B16B100A66923 /* ConstraintViewDSL.swift in Sources */,
 				1904A14F1A1386C2006A5524 /* ResourceData.m in Sources */,
 				B7CCC721209B16B100A66923 /* ConstraintAttributes.swift in Sources */,
@@ -5432,7 +5467,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5467,7 +5502,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -5525,7 +5560,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5559,7 +5594,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5592,7 +5627,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -5621,7 +5656,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Source/Core/Test/SupportingFiles/Info.plist;
@@ -5645,7 +5680,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Source/Core/Test/SupportingFiles/Info.plist;
@@ -5668,7 +5703,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Source/Core/Test/SupportingFiles/Info.plist;
@@ -5690,7 +5725,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Test/EndToEnd/SupportingFiles/Info.plist;
@@ -5715,7 +5750,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Test/EndToEnd/SupportingFiles/Info.plist;
@@ -5739,7 +5774,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = Test/EndToEnd/SupportingFiles/Info.plist;
@@ -5878,7 +5913,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5918,7 +5953,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CONFIGURATION_BUILD_DIR = "$PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5953,7 +5988,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -6009,7 +6044,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 57UCUYGPA2;
+				DEVELOPMENT_TEAM = 65F532Z3JH;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",

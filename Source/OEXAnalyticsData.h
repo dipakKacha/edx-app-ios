@@ -105,6 +105,7 @@ extern NSString* const OEXAnalyticsValuePhotoSourceCamera;
 extern NSString* const OEXAnalyticsValuePhotoSourceLibrary;
 
 // Screens
+extern NSString* const STBAnalyticsScreenCategory;
 extern NSString* const OEXAnalyticsScreenLaunch;
 extern NSString* const OEXAnalyticsScreenRegister;
 extern NSString* const OEXAnalyticsScreenCourseDashboard;

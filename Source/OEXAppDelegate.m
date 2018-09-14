@@ -76,6 +76,7 @@
     [self.window makeKeyAndVisible];
 
     [self setupGlobalEnvironment];
+    //MARK: ---All Initialisations
     [self.environment.session performMigrations];
 
     [self.environment.router openInWindow:self.window];
