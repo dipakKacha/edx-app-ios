@@ -159,7 +159,7 @@ extension STBCategoryHomeViewController: UICollectionViewDelegate, UICollectionV
             // NOTE: This Screen represents Discvory tab's Native controller,
             // If it's changed to WebView then controller will changed to OEXFindCoursesViewController.
             // For more check discoveryViewController method in OEXRouter+Swift.swift
-            let controller = CourseCatalogViewController(environment: environment as! CourseCatalogViewController.Environment, categoryId: category.id)
+            let controller = CourseCatalogViewController(environment: environment as! CourseCatalogViewController.Environment, categoryId: category.id, categoryTitle:category.data?.name)
             self.navigationController?.pushViewController(controller, animated: true)
         }
     }

@@ -25,6 +25,7 @@ class CourseCatalogDetailView : UIView, UIWebViewDelegate {
     let courseCard = CourseCardView()
     fileprivate let blurbLabel = UILabel()
     private let actionButton = SpinnerButton(type: .system)
+    private let freeVideoButton = SpinnerButton(type: .system)
     private let container : TZStackView
     private let insetContainer : TZStackView
     private let descriptionView = UIWebView()
@@ -37,14 +38,15 @@ class CourseCatalogDetailView : UIView, UIWebViewDelegate {
     private let topContentInsets = ConstantInsetsSource(insets: .zero, affectsScrollIndicators: false)
     
     var action: ((_ completion : @escaping () -> Void) -> Void)?
-    
+    var freeVidAction: ((_ completion : @escaping () -> Void) -> Void)?
+
     private var _loaded = Sink<()>()
     var loaded : OEXStream<()> {
         return _loaded
     }
     
     init(frame: CGRect, environment: Environment) {
-        self.insetContainer = TZStackView(arrangedSubviews: [blurbLabel, actionButton, fieldsList])
+        self.insetContainer = TZStackView(arrangedSubviews: [blurbLabel, freeVideoButton, actionButton, fieldsList])
         self.container = TZStackView(arrangedSubviews: [courseCard, insetContainer])
         self.environment = environment
         
@@ -88,11 +90,23 @@ class CourseCatalogDetailView : UIView, UIWebViewDelegate {
         fieldsList.layoutMarginsRelativeArrangement = true
         
         blurbLabel.numberOfLines = 0
+
+        freeVideoButton.oex_addAction({[weak self] _ in
+            self?.freeVideoButton.showProgress = true
+            self?.freeVidAction?({[weak self] _ in
+                self?.freeVideoButton.showProgress = false
+            } )
+            }, for: .touchUpInside)
+        
+//            self?.action?( {[weak self] _ in
+//                self?.freeVideoButton.showProgress = false
+//            } )
+//            }, for: .touchUpInside)
         
         actionButton.oex_addAction({[weak self] _ in
             self?.actionButton.showProgress = true
             self?.action?( {[weak self] _ in
-                            self?.actionButton.showProgress = false
+                self?.actionButton.showProgress = false
             } )
             }, for: .touchUpInside)
         
@@ -207,6 +221,15 @@ class CourseCatalogDetailView : UIView, UIWebViewDelegate {
         }
         set {
             actionButton.applyButtonStyle(style: OEXStyles.shared().filledEmphasisButtonStyle, withTitle: newValue)
+        }
+    }
+    
+    var freeVidText: String? {
+        get {
+            return self.freeVideoButton.attributedTitle(for: .normal)?.string
+        }
+        set {
+            freeVideoButton.applyButtonStyle(style: OEXStyles.shared().filledEmphasisButtonStyle, withTitle: newValue)
         }
     }
     

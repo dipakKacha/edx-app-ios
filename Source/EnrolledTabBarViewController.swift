@@ -15,11 +15,11 @@ private enum TabBarOptions: Int {
     func title(config: OEXConfig? = nil) -> String {
         switch self {
         case .Course:
-            return Strings.courses
+            return Strings.myCourses
         case .Program:
             return Strings.programs
         case .CourseCatalog:
-            return config?.courseEnrollmentConfig.type == .Native ? Strings.findCourses : Strings.discover
+            return Strings.findCourses // config?.courseEnrollmentConfig.type == .Native ? Strings.findCourses : Strings.discover
         case .Debug:
             return Strings.debug
         }
@@ -43,8 +43,10 @@ class EnrolledTabBarViewController: UITabBarController, UITabBarControllerDelega
     static var courseCatalogIndex: Int = 0
     
     private var screenTitle: String {
-        guard let option = TabBarOptions.options.first else {return Strings.courses}
-        return option.title(config: environment.config)
+//        guard let option = TabBarOptions.options.first else {return Strings.studyByTech}
+//        return option.title(config: environment.config)
+        return Strings.studyByTech
+
     }
     
     init(environment: Environment) {
@@ -86,19 +88,20 @@ class EnrolledTabBarViewController: UITabBarController, UITabBarControllerDelega
         for option in TabBarOptions.options {
             switch option {
             case .Course:
-//                item = TabBarItem(title: option.title(), viewController: EnrolledCoursesViewController(environment: environment), icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
-                let storyboard = UIStoryboard.init(name: "STBCategoryHome", bundle: nil)
-                let categoryController = storyboard.instantiateViewController(withIdentifier: "STBCategoryHomeViewController") as! STBCategoryHomeViewController
-                categoryController.environment = environment
-                item = TabBarItem(title: option.title(), viewController: categoryController, icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
+                item = TabBarItem(title: option.title(), viewController: EnrolledCoursesViewController(environment: environment), icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
                 tabBarItems.append(item)
             case .Program:
                 guard environment.config.programConfig.enabled, let programsURL = environment.config.programConfig.programURL else { break }
                 item = TabBarItem(title: option.title(), viewController: ProgramsViewController(environment: environment, programsURL: programsURL), icon: Icon.Clone, detailText: Strings.Dashboard.courseCourseDetail)
                 tabBarItems.append(item)
             case .CourseCatalog:
-                guard environment.config.courseEnrollmentConfig.isCourseDiscoveryEnabled(), let router = environment.router else { break }
-                item = TabBarItem(title: option.title(config: environment.config), viewController: router.discoveryViewController(), icon: Icon.Discovery, detailText: Strings.Dashboard.courseCourseDetail)
+//                guard environment.config.courseEnrollmentConfig.isCourseDiscoveryEnabled(), let router = environment.router else { break }
+                guard environment.config.courseEnrollmentConfig.isCourseDiscoveryEnabled() else { break }
+                let storyboard = UIStoryboard.init(name: "STBMain", bundle: nil)
+                let categoryController = storyboard.instantiateViewController(withIdentifier: "STBCategoryHomeViewController") as! STBCategoryHomeViewController
+                categoryController.environment = environment
+                item = TabBarItem(title: option.title(), viewController: categoryController, icon: Icon.Courseware, detailText: Strings.Dashboard.courseCourseDetail)
+                //item = TabBarItem(title: option.title(config: environment.config), viewController: router.discoveryViewController(), icon: Icon.Discovery, detailText: Strings.Dashboard.courseCourseDetail)
                 tabBarItems.append(item)
                 EnrolledTabBarViewController.courseCatalogIndex = tabBarItems.count - 1
             case .Debug:

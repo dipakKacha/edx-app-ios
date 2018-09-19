@@ -191,7 +191,7 @@
     
     self.styles = self.stylesBuilder(self);
     self.router = self.routerBuilder(self);
-    
+        
     // We should minimize the use of these singletons and mostly use explicitly passed in dependencies
     // But occasionally that's very inconvenient and also much existing code is not structured to deal with that
     [OEXConfig setSharedConfig:self.config];

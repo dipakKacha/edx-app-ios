@@ -47,7 +47,7 @@ class OEXRearTableViewController : UITableViewController {
         //Listen to notification
         NotificationCenter.default.addObserver(self, selector: #selector(OEXRearTableViewController.dataAvailable(notification:)), name: NSNotification.Name(rawValue: NOTIFICATION_URL_RESPONSE), object: nil)
 
-        coursesLabel.text = Strings.courses.oex_uppercaseStringInCurrentLocale()
+        coursesLabel.text = Strings.myCourses.oex_uppercaseStringInCurrentLocale()
         accountLabel.text = Strings.userAccount.oex_uppercaseStringInCurrentLocale()
         courseCatalogLabel.text = courseCatalogTitle().oex_uppercaseStringInCurrentLocale()
         setNaturalTextAlignment()

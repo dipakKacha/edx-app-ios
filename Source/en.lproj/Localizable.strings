@@ -284,6 +284,8 @@
 "COURSE_DETAIL.EFFORT"="Effort:";
 /* Label indicating when a course ends. */
 "COURSE_DETAIL.END_DATE"="End Date:";
+/* Button title allowing user to watch free videos */
+"COURSE_DETAIL.FREE_VIDEOS" = "Free Videos";
 /* Button title allowing user to enroll in a course */
 "COURSE_DETAIL.ENROLL_NOW" = "Enroll now";
 /* Button title allowing user to view a course from the course's catalog detail page */
@@ -433,7 +435,7 @@
 /* Overlay message shown when facebook login fails because the user's account isn't linked */
 "FAILED_TO_LOAD_TOPICS"="Failed to load topics.";
 /* Title of find courses screen */
-"FIND_COURSES"="Find Courses";
+"FIND_COURSES"="FIND COURSES";
 /* No available courses on find courses section */
 "FIND_COURSES_NO_AVAILABLE_COURSES"="No available courses";
 /* Overlay message shown when enrolling in a course fails because the user is already in the course */
@@ -489,7 +491,7 @@
 /* Screen title showing a category */
 "CATEGORY" = "Category";
 /* Screen title showing a user's courses */
-"COURSES"="Courses";
+"MY_COURSES"="MY COURSES";
 /* Screen title showing a user's settings */
 "MY_SETTINGS"="My Settings";
 /* Time Label in My Videos section*/
@@ -701,6 +703,8 @@
 "STARTUP.CREATE_YOUR_ACCOUNT_TEXT"="Create your Account";
 /* Explore Subjects button text on the first screen */
 "STARTUP_EXPLORE_SUBJECTS"="Explore Subjects";
+/* App title */
+"STUDY_BY_TECH" = "StudyByTech";
 /* Button allowing user to submit feedback about the app via email */
 "SUBMIT_FEEDBACK.OPTION_TITLE" = "Submit Feedback";
 /* Support message email title */

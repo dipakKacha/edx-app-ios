@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -40,8 +41,8 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="TTs-EL-Jso">
-                                        <rect key="frame" x="35" y="6" width="305" height="175"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="TTs-EL-Jso">
+                                        <rect key="frame" x="137" y="-418.5" width="101" height="1024"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="MUA-79-jE4"/>
                                             <constraint firstAttribute="width" constant="95" id="SlJ-UJ-dzq"/>
@@ -218,7 +219,6 @@
                                     <constraint firstItem="EXv-n9-pKW" firstAttribute="top" secondItem="hfa-gq-20d" secondAttribute="bottom" constant="20" id="3k7-VN-Tah"/>
                                     <constraint firstItem="2of-Hn-kff" firstAttribute="leading" secondItem="gKO-wT-mn0" secondAttribute="leading" id="4Xa-0x-IvR"/>
                                     <constraint firstItem="huu-Bj-C7B" firstAttribute="leading" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="40" id="BKd-v0-daG"/>
-                                    <constraint firstItem="TTs-EL-Jso" firstAttribute="top" relation="lessThanOrEqual" secondItem="hfa-gq-20d" secondAttribute="top" id="F7N-ml-idG"/>
                                     <constraint firstItem="TTs-EL-Jso" firstAttribute="centerX" secondItem="hfa-gq-20d" secondAttribute="centerX" id="FGc-BN-pGf"/>
                                     <constraint firstItem="9O4-tw-OUv" firstAttribute="leading" secondItem="2of-Hn-kff" secondAttribute="trailing" constant="-3" id="Gyr-Qu-EyO"/>
                                     <constraint firstAttribute="bottom" secondItem="ahW-UE-xWc" secondAttribute="bottom" constant="89" id="I8N-Tb-r0n"/>
@@ -239,19 +239,17 @@
                                     <constraint firstItem="BU5-Og-2jn" firstAttribute="leading" secondItem="2of-Hn-kff" secondAttribute="leading" id="aUS-8l-qES"/>
                                     <constraint firstItem="huu-Bj-C7B" firstAttribute="top" secondItem="hfa-gq-20d" secondAttribute="bottom" constant="20" id="aY0-AX-sjm"/>
                                     <constraint firstItem="TTs-EL-Jso" firstAttribute="centerY" secondItem="hfa-gq-20d" secondAttribute="centerY" constant="-2" id="ahE-JE-LBq"/>
-                                    <constraint firstItem="TTs-EL-Jso" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="hfa-gq-20d" secondAttribute="bottom" id="cvm-No-bAR"/>
                                     <constraint firstItem="EXv-n9-pKW" firstAttribute="leading" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="46" id="e5Y-r9-L0p"/>
                                     <constraint firstItem="5Ki-dQ-Zuc" firstAttribute="centerY" secondItem="gKO-wT-mn0" secondAttribute="centerY" id="gGg-SE-PSN"/>
                                     <constraint firstItem="dcW-Go-srk" firstAttribute="trailing" secondItem="EXv-n9-pKW" secondAttribute="trailing" id="hNJ-7L-8mI"/>
                                     <constraint firstItem="gKO-wT-mn0" firstAttribute="top" secondItem="Tp9-tH-kdk" secondAttribute="bottom" constant="28" id="hsA-cL-dmn"/>
-                                    <constraint firstItem="TTs-EL-Jso" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hfa-gq-20d" secondAttribute="leading" id="k5k-AD-EcL"/>
                                     <constraint firstItem="BU5-Og-2jn" firstAttribute="top" secondItem="9O4-tw-OUv" secondAttribute="bottom" constant="12" id="kms-gg-pIx"/>
                                     <constraint firstItem="9O4-tw-OUv" firstAttribute="centerY" secondItem="2of-Hn-kff" secondAttribute="centerY" constant="22" id="nKQ-0e-tkM"/>
                                     <constraint firstItem="ahW-UE-xWc" firstAttribute="top" secondItem="tdT-OS-lpR" secondAttribute="bottom" constant="8" id="oLv-XG-VYc"/>
+                                    <constraint firstItem="TTs-EL-Jso" firstAttribute="width" secondItem="hfa-gq-20d" secondAttribute="width" multiplier="0.33" id="oU9-oD-VH4"/>
                                     <constraint firstItem="ahW-UE-xWc" firstAttribute="centerX" secondItem="XeO-S4-8zQ" secondAttribute="centerX" id="od6-0B-DvE"/>
                                     <constraint firstItem="tdT-OS-lpR" firstAttribute="leading" secondItem="gKO-wT-mn0" secondAttribute="leading" id="ofK-sR-7T6"/>
                                     <constraint firstAttribute="trailing" secondItem="gKO-wT-mn0" secondAttribute="trailing" constant="40" id="rec-Tq-Vqf"/>
-                                    <constraint firstItem="TTs-EL-Jso" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hfa-gq-20d" secondAttribute="trailing" id="rrw-ue-zYf"/>
                                     <constraint firstAttribute="trailing" secondItem="Pqx-qN-yU2" secondAttribute="trailing" constant="40" id="t4q-ib-lp6"/>
                                     <constraint firstItem="hfa-gq-20d" firstAttribute="leading" secondItem="XeO-S4-8zQ" secondAttribute="leading" constant="35" id="wI9-zi-2Wu"/>
                                     <constraint firstItem="tdT-OS-lpR" firstAttribute="trailing" secondItem="gKO-wT-mn0" secondAttribute="trailing" id="xl9-iM-lLy"/>
@@ -309,7 +307,7 @@
     <resources>
         <image name="bt_grey_default.png" width="525" height="100"/>
         <image name="loginScreenImage.png" width="320" height="171"/>
-        <image name="logo.png" width="141" height="65"/>
+        <image name="logo" width="1024" height="1024"/>
         <image name="separator.png" width="526" height="2"/>
     </resources>
 </document>

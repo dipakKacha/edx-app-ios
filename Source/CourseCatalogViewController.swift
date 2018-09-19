@@ -18,16 +18,21 @@ class CourseCatalogViewController: UIViewController, CoursesTableViewControllerD
     
     var categoryId:Int?
     
-    init(environment : Environment, categoryId: Int? = nil) {
+    init(environment : Environment, categoryId: Int? = nil, categoryTitle: String? = nil) {
         self.environment = environment
         if let catId = categoryId {
             self.categoryId = catId
         }
         self.tableController = CoursesTableViewController(environment: environment, context: .CourseCatalog)
         super.init(nibName: nil, bundle: nil)
-        self.navigationItem.title = Strings.findCourses
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: " ", style: .plain, target: nil, action: nil)
         navigationItem.backBarButtonItem?.accessibilityIdentifier = "CourseCatalogViewController:cancel-bar-button-item"
+        
+        if self.categoryId != nil {
+            self.navigationItem.title = categoryTitle!
+        } else {
+        self.navigationItem.title = Strings.findCourses
+        }
     }
 
     required init?(coder aDecoder: NSCoder) {

@@ -771,6 +771,11 @@
 		BECB7B301924C0C3009C77F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB7B121924C0C3009C77F1 /* UIKit.framework */; };
 		BECB7B691924EE11009C77F1 /* OEXLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */; };
 		BEEEBF80196AAACF00EF2C35 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEEEBF82196AAACF00EF2C35 /* Localizable.strings */; };
+		C12702B9214FCAA400B07D7E /* STBFreeVideoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12702B8214FCAA400B07D7E /* STBFreeVideoListViewController.swift */; };
+		C12702BE214FCD5500B07D7E /* GetFreeVideos.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12702BC214FCD5400B07D7E /* GetFreeVideos.swift */; };
+		C12702BF214FCD5500B07D7E /* FreeVideoResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12702BD214FCD5500B07D7E /* FreeVideoResults.swift */; };
+		C12702C1214FCE5400B07D7E /* FreeVideoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12702C0214FCE5400B07D7E /* FreeVideoAPI.swift */; };
+		C12702C3214FDF0A00B07D7E /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12702C2214FDF0A00B07D7E /* Launch Screen.storyboard */; };
 		C13899BB2149268200EB969D /* CategoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BA2149268200EB969D /* CategoryAPI.swift */; };
 		C13899C0214929A500EB969D /* AllCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BC214929A200EB969D /* AllCategories.swift */; };
 		C13899C1214929A500EB969D /* CatChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BD214929A300EB969D /* CatChildren.swift */; };
@@ -778,7 +783,7 @@
 		C13899C3214929A500EB969D /* CatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C13899BF214929A500EB969D /* CatData.swift */; };
 		C1473EAA2148D84A00723F0D /* STBCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1473EA92148D84A00723F0D /* STBCategoryCollectionViewCell.swift */; };
 		C1473EAC2148E0C800723F0D /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1473EAB2148E0C700723F0D /* UIExtension.swift */; };
-		C1AFE9C52147F902008A99A8 /* STBCategoryHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */; };
+		C1AFE9C52147F902008A99A8 /* STBMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1AFE9C42147F902008A99A8 /* STBMain.storyboard */; };
 		C1AFE9CA21480649008A99A8 /* STBCategoryHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1AFE9C921480649008A99A8 /* STBCategoryHomeViewController.swift */; };
 		C1CC73022148FF7B00EB7A45 /* FSPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FB2148FF7B00EB7A45 /* FSPageControl.swift */; };
 		C1CC73032148FF7B00EB7A45 /* FSPagerCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CC72FC2148FF7B00EB7A45 /* FSPagerCollectionView.swift */; };
@@ -1835,6 +1840,11 @@
 		BECB7B671924EE11009C77F1 /* OEXLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OEXLoginViewController.h; sourceTree = "<group>"; };
 		BECB7B681924EE11009C77F1 /* OEXLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OEXLoginViewController.m; sourceTree = "<group>"; };
 		C1061FFC436565270CDA40E3 /* Pods-edXTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-edXTests.profile.xcconfig"; path = "Pods/Target Support Files/Pods-edXTests/Pods-edXTests.profile.xcconfig"; sourceTree = "<group>"; };
+		C12702B8214FCAA400B07D7E /* STBFreeVideoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBFreeVideoListViewController.swift; sourceTree = "<group>"; };
+		C12702BC214FCD5400B07D7E /* GetFreeVideos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetFreeVideos.swift; sourceTree = "<group>"; };
+		C12702BD214FCD5500B07D7E /* FreeVideoResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreeVideoResults.swift; sourceTree = "<group>"; };
+		C12702C0214FCE5400B07D7E /* FreeVideoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreeVideoAPI.swift; sourceTree = "<group>"; };
+		C12702C2214FDF0A00B07D7E /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		C13899BA2149268200EB969D /* CategoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryAPI.swift; sourceTree = "<group>"; };
 		C13899BC214929A200EB969D /* AllCategories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllCategories.swift; sourceTree = "<group>"; };
 		C13899BD214929A300EB969D /* CatChildren.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatChildren.swift; sourceTree = "<group>"; };
@@ -1842,7 +1852,7 @@
 		C13899BF214929A500EB969D /* CatData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatData.swift; sourceTree = "<group>"; };
 		C1473EA92148D84A00723F0D /* STBCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
 		C1473EAB2148E0C700723F0D /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
-		C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STBCategoryHome.storyboard; sourceTree = "<group>"; };
+		C1AFE9C42147F902008A99A8 /* STBMain.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = STBMain.storyboard; sourceTree = "<group>"; };
 		C1AFE9C921480649008A99A8 /* STBCategoryHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STBCategoryHomeViewController.swift; sourceTree = "<group>"; };
 		C1CC72FB2148FF7B00EB7A45 /* FSPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPageControl.swift; sourceTree = "<group>"; };
 		C1CC72FC2148FF7B00EB7A45 /* FSPagerCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FSPagerCollectionView.swift; sourceTree = "<group>"; };
@@ -2822,8 +2832,9 @@
 				B4B6D6471A95CF33000F44E8 /* OEXUserLicenseAgreementViewController.xib */,
 				9E7D1BCB1AEA5BF5000AF768 /* OEXDownloadViewController.storyboard */,
 				9ED269D11AF114B900328A34 /* OEXLoginViewController.storyboard */,
-				C1AFE9C42147F902008A99A8 /* STBCategoryHome.storyboard */,
+				C1AFE9C42147F902008A99A8 /* STBMain.storyboard */,
 				C1CC730921491C6300EB7A45 /* STBCategoryCollectionViewCell.xib */,
+				C12702C2214FDF0A00B07D7E /* Launch Screen.storyboard */,
 			);
 			name = XIB/Storyboard;
 			sourceTree = "<group>";
@@ -3523,6 +3534,7 @@
 		BE45DA86192605E7003BD39B /* Course */ = {
 			isa = PBXGroup;
 			children = (
+				C12702B7214FCA4100B07D7E /* FreeVideos */,
 				223DD6B91F9F59C3004A21B9 /* Tab Layout Dashboard */,
 				221D31801EC08AEE001D8D71 /* Course Dates */,
 				778F17791C0D125A0099BF93 /* CoursesTableViewController.swift */,
@@ -3908,6 +3920,33 @@
 				2240FD551FF266E4001D6589 /* TabBarItem.swift */,
 			);
 			name = "Front Rear views";
+			sourceTree = "<group>";
+		};
+		C12702B7214FCA4100B07D7E /* FreeVideos */ = {
+			isa = PBXGroup;
+			children = (
+				C12702BB214FCCBC00B07D7E /* FreeVideoModel */,
+				C12702BA214FCC4000B07D7E /* FreeVideoAPI */,
+				C12702B8214FCAA400B07D7E /* STBFreeVideoListViewController.swift */,
+			);
+			name = FreeVideos;
+			sourceTree = "<group>";
+		};
+		C12702BA214FCC4000B07D7E /* FreeVideoAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C12702C0214FCE5400B07D7E /* FreeVideoAPI.swift */,
+			);
+			name = FreeVideoAPI;
+			sourceTree = "<group>";
+		};
+		C12702BB214FCCBC00B07D7E /* FreeVideoModel */ = {
+			isa = PBXGroup;
+			children = (
+				C12702BD214FCD5500B07D7E /* FreeVideoResults.swift */,
+				C12702BC214FCD5400B07D7E /* GetFreeVideos.swift */,
+			);
+			name = FreeVideoModel;
 			sourceTree = "<group>";
 		};
 		C13899B8214925CF00EB969D /* Model */ = {
@@ -4313,6 +4352,7 @@
 				B71AA19C20CEF64D00700C5E /* law@3x.png in Resources */,
 				69ECC6341D50D1170030CF87 /* ic_next_deactive.png in Resources */,
 				B71AA1BE20CEF64D00700C5E /* education@2x.png in Resources */,
+				C12702C3214FDF0A00B07D7E /* Launch Screen.storyboard in Resources */,
 				B71AA19E20CEF64D00700C5E /* math@3x.png in Resources */,
 				B71AA1C220CEF64D00700C5E /* physics@2x.png in Resources */,
 				B71AA1A720CEF64D00700C5E /* history@3x.png in Resources */,
@@ -4352,7 +4392,7 @@
 				B71AA1A920CEF64D00700C5E /* medicine@3x.png in Resources */,
 				69ECC64A1D50D1170030CF87 /* launchBackground.png in Resources */,
 				69ECC6201D50D1170030CF87 /* bt_signin_deactive.png in Resources */,
-				C1AFE9C52147F902008A99A8 /* STBCategoryHome.storyboard in Resources */,
+				C1AFE9C52147F902008A99A8 /* STBMain.storyboard in Resources */,
 				69ECC62F1D50D1170030CF87 /* ic_cancel@3x.png in Resources */,
 				B71AA1B820CEF64D00700C5E /* electronics@2x.png in Resources */,
 				B71AA1A520CEF64D00700C5E /* architecture@3x.png in Resources */,
@@ -4780,6 +4820,7 @@
 				1A8172511C3C1F2E007262AA /* OEXConfig.swift in Sources */,
 				77D6A9A61C28F98A00E67CCF /* EnrolledCoursesViewController.swift in Sources */,
 				77691F911B388626003922F2 /* UIGestureRecognizer+BlockActions.swift in Sources */,
+				C12702B9214FCAA400B07D7E /* STBFreeVideoListViewController.swift in Sources */,
 				1AB539F81BFE046C0065501F /* DebugMenuLogger.swift in Sources */,
 				B7CCC729209B16B100A66923 /* ConstraintInsetTarget.swift in Sources */,
 				9ED168AE1B29A4ED00AA7B5B /* UserAPI.swift in Sources */,
@@ -4932,6 +4973,7 @@
 				9ED168B01B29A9EF00AA7B5B /* CouseLastAccessed.swift in Sources */,
 				227386AA2057C0AA007AA396 /* TranscriptParser.swift in Sources */,
 				C1CC730C21491E0600EB7A45 /* STBSubCategoryViewController.swift in Sources */,
+				C12702C1214FCE5400B07D7E /* FreeVideoAPI.swift in Sources */,
 				1AAD95F81CEB725900BBF70C /* OEXTextStyle+Swift.swift in Sources */,
 				1A67E5411BD7D61800C53401 /* Feed.swift in Sources */,
 				22A1B6FF206CFFA3001C1704 /* TranscriptManager.swift in Sources */,
@@ -4945,6 +4987,7 @@
 				778B40D91C2F62520009F33E /* EnrollmentManager.swift in Sources */,
 				C1EA9D232149490F00A42FC8 /* DateFormatterTransform.swift in Sources */,
 				22AB76181FFF62A80082F4EE /* CourseCertificateView.swift in Sources */,
+				C12702BE214FCD5500B07D7E /* GetFreeVideos.swift in Sources */,
 				774B393B1B5EEF8A00595D33 /* UIAlertController+Selection.swift in Sources */,
 				B7C5DB3820B6C73700D80AD2 /* PopularSubjectsViewController.swift in Sources */,
 				69EFBB0B1E36259D00FF66C4 /* RatingViewController.swift in Sources */,
@@ -5032,6 +5075,7 @@
 				77D470571C11EB4D00C6F0C9 /* ChoiceLabel.swift in Sources */,
 				77FDF4191B02910D00E8C639 /* IconMessageView.swift in Sources */,
 				77DCD23B1C2B14BA00CAEBB5 /* UITableView+Layout.swift in Sources */,
+				C12702BF214FCD5500B07D7E /* FreeVideoResults.swift in Sources */,
 				B7CCC731209B16B100A66923 /* ConstraintMakerEditable.swift in Sources */,
 				77509D941BE1710200B10CD3 /* TZStackView.swift in Sources */,
 				B78823A81FC6F69900F9CD61 /* RegistrationFieldController.swift in Sources */,

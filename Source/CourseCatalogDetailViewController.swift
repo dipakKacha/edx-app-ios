@@ -50,7 +50,7 @@ class CourseCatalogDetailViewController: UIViewController, InterfaceOrientationO
         
         listen()
         load()
-    }
+    } 
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
@@ -60,6 +60,15 @@ class CourseCatalogDetailViewController: UIViewController, InterfaceOrientationO
     private func listen() {
         self.courseStream.listen(self,
             success: {[weak self] (course, enrolled) in
+                self?.aboutView.freeVidText = Strings.CourseDetail.freeVideos
+                self?.aboutView.freeVidAction = { completion in
+                    let storyboard = UIStoryboard.init(name: "STBMain", bundle: nil)
+                    let controller = storyboard.instantiateViewController(withIdentifier: "STBFreeVideoListViewController") as! STBFreeVideoListViewController
+                    controller.courseId = self?.courseID
+                    self?.navigationController?.pushViewController(controller, animated: true)
+                    completion()
+                }
+                
                 self?.aboutView.applyCourse(course: course)
                 if enrolled {
                     self?.aboutView.actionText = Strings.CourseDetail.viewCourse
@@ -81,6 +90,7 @@ class CourseCatalogDetailViewController: UIViewController, InterfaceOrientationO
                 self?.loadController.state = LoadState.failed(error: error)
             }
         )
+        
         self.aboutView.loaded.listen(self) {[weak self] _ in
             self?.loadController.state = .Loaded
         }
@@ -158,6 +168,10 @@ extension CourseCatalogDetailViewController {
     
     var t_actionText: String? {
         return self.aboutView.actionText
+    }
+    
+    var t_freeVideText: String? {
+        return self.aboutView.freeVidText
     }
     
     func t_enrollInCourse(completion : @escaping () -> Void) {

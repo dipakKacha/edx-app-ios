@@ -9,14 +9,13 @@
 import UIKit
 import edXCore
 
-
 struct CategoryAPI {
     public typealias Environment =  OEXAnalyticsProvider & OEXConfigProvider & OEXSessionProvider & OEXStylesProvider & ReachabilityProvider
     private let environment: Environment
-
+    
     typealias CompletionHandler = (AllCategories) -> ()
     static func getAllCategories(completionHandler:@escaping CompletionHandler) {
-        let url = URL(string: "http://192.168.5.42:8000/all_categories")!
+        let url = URL(string: "\(String(describing: OEXConfig.shared().apiHostURL()!))/all_categories")!
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let unwrappedData = data else { return }
             let convertedString = String(data: unwrappedData, encoding: String.Encoding.utf8) // the data will be converted to the string
@@ -29,7 +28,7 @@ struct CategoryAPI {
     
     typealias PromotionalCoursesCompletionHandler = (PromotionalCourses) -> ()
     static func getPromotionalCourses(completionHandler:@escaping PromotionalCoursesCompletionHandler) {
-        let url = URL(string: "http://192.168.5.42:8000/promotional_courses/")!
+        let url = URL(string: "\(String(describing: OEXConfig.shared().apiHostURL()!))/promotional_courses/")!
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             guard let unwrappedData = data else { return }
